@@ -9,3 +9,9 @@ Project type: Dashboard.
 File created date: 25.01.2018
 Last modified: 
 */
+.header {
+  background-color: #4F80E1;
+}
+* {
+  box-sizing: border-box;
+}
