@@ -1,18 +1,19 @@
 {
-    "name": "starterpack-2018",
+    "name": "GoTo",
     "version": "1.0.0",
-    "description": "starter pack for gulp projects ",
+    "description": "GoTo Dashboard",
     "main": "index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-        "starter",
-        "pack",
+        "GoTo",
+        "Dashboard",
         "gulp",
         "projects",
         "Jeandre",
-        "Melaria"
+        "Melaria",
+        "www.jeandremelaria.nl"
     ],
     "author": "Jeandre Melaria",
     "license": "ISC",
