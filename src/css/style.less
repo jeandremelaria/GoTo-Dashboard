@@ -20,34 +20,52 @@ Last modified:
 // === === Variables === === //
 // Color
 @blueMid:#4F80E1;
+@blueDark:#3A5EA6;
 @white:white;
 
+// Font
+@fontSize:2rem;
+
+@height:3.1rem;
 @padding:0.5rem;
 @margin:1rem;
+
 // === === Functions === === //
 
 // === === Mixings === === //
 .header {
-  top:0;
   background-color:@blueMid;
-  height:3.1rem;
+  height:@height;
   padding: @padding;
 
+.header__col--logo {
+  background-color: @blueDark;
+  height:@height;
+  top:-0.5rem;
+
   .header__logo {
-   margin-top:-0.4rem;
-   margin-left:(@margin + 2.5rem);
-  
+    margin-top:-0.4rem;
+    margin-left:(@margin + 2.5rem);
 
     &--style {
       color:@white;
+      margin-left:2.5rem;
+      padding-top:@padding;
     }
-    
+}
+ 
   }
+}
+.fa {
+  color:@white;
+  font-size: @fontSize;
 }
 
 // === === General === === //
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 // === === Media queries === === //

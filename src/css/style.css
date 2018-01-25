@@ -10,18 +10,30 @@ File created date: 25.01.2018
 Last modified: 
 */
 .header {
-  top: 0;
   background-color: #4F80E1;
   height: 3.1rem;
   padding: 0.5rem;
 }
-.header .header__logo {
+.header .header__col--logo {
+  background-color: #3A5EA6;
+  height: 3.1rem;
+  top: -0.5rem;
+}
+.header .header__col--logo .header__logo {
   margin-top: -0.4rem;
   margin-left: 3.5rem;
 }
-.header .header__logo--style {
+.header .header__col--logo .header__logo--style {
   color: white;
+  margin-left: 2.5rem;
+  padding-top: 0.5rem;
+}
+.fa {
+  color: white;
+  font-size: 2rem;
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
