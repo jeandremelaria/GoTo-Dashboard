@@ -18,14 +18,33 @@ Last modified:
 // - Media queries
 
 // === === Variables === === //
+// Color
 @blueMid:#4F80E1;
+@white:white;
 
+@padding:0.5rem;
+@margin:1rem;
 // === === Functions === === //
 
 // === === Mixings === === //
 .header {
+  top:0;
   background-color:@blueMid;
+  height:3.1rem;
+  padding: @padding;
+
+  .header__logo {
+   margin-top:(@argin - 0.7rem);
+   margin-left:(@margin + 2.5rem);
+  
+
+    &--style {
+      color:@white;
+    }
+    
+  }
 }
+
 // === === General === === //
 * {
     box-sizing: border-box;
