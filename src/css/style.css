@@ -28,9 +28,12 @@ Last modified:
   margin-left: 2.5rem;
   padding-top: 0.5rem;
 }
+.header .nav .nav__menuToggle--icon {
+  margin-top: 0.5rem;
+}
 .fa {
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 * {
   box-sizing: border-box;
