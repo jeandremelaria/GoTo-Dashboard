@@ -34,49 +34,37 @@ Last modified:
 
 // === === Mixings === === //
 .header {
+  height:@height;
   background-color:@blueMid;
-  height:@height;
-  padding: @padding;
-
-.header__col--logo {
-  background-color: @blueDark;
-  height:@height;
-  top:-0.5rem;
-
+  padding:(@padding - 0.2rem);
+  
   .header__logo {
-    margin-top:-0.4rem;
-    margin-left:(@margin + 2.5rem);
-
+    background-color:@blueDark;
+    top:-0.27rem;
+    height:@height;
     &--style {
       color:@white;
-      margin-left:2.5rem;
-      padding-top:@padding;
+      margin-left:(@margin + 1.3rem);
+      padding-top:(@padding);
     }
-}
+  }
  
-  }
-  .nav {
-    .nav__menuToggle--icon {
-      margin-top:(@margin - 0.5rem);
-    }
-    .nav__menuLinks {
-       list-style: none;
-       width: 60rem;
-      .nav__menuLinks--item {
-        margin-left:1rem;
-      }
-      
-
-    }
+  .header__menuToggle {
+   .header__menuToggle--icon {
+     padding-top:(@padding + 0.2rem);
     
-   
+   }
   }
-}
+
+  .nav__menuLinks--item {
+    padding-top:(@padding - 0.1rem);
+  }
+  }
+
+
 .fa {
   color:@white;
-  font-size: (@fontSize - 1rem);
 }
-
 // === === General === === //
 * {
     box-sizing: border-box;

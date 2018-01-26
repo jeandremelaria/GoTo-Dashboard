@@ -10,37 +10,28 @@ File created date: 25.01.2018
 Last modified: 
 */
 .header {
+  height: 3.1rem;
   background-color: #4F80E1;
-  height: 3.1rem;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
-.header .header__col--logo {
+.header .header__logo {
   background-color: #3A5EA6;
+  top: -0.27rem;
   height: 3.1rem;
-  top: -0.5rem;
 }
-.header .header__col--logo .header__logo {
-  margin-top: -0.4rem;
-  margin-left: 3.5rem;
-}
-.header .header__col--logo .header__logo--style {
+.header .header__logo--style {
   color: white;
-  margin-left: 2.5rem;
+  margin-left: 2.3rem;
   padding-top: 0.5rem;
 }
-.header .nav .nav__menuToggle--icon {
-  margin-top: 0.5rem;
+.header .header__menuToggle .header__menuToggle--icon {
+  padding-top: 0.7rem;
 }
-.header .nav .nav__menuLinks {
-  list-style: none;
-  width: 60rem;
-}
-.header .nav .nav__menuLinks .nav__menuLinks--item {
-  margin-left: 1rem;
+.header .nav__menuLinks--item {
+  padding-top: 0.4rem;
 }
 .fa {
   color: white;
-  font-size: 1rem;
 }
 * {
   box-sizing: border-box;
