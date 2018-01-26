@@ -31,6 +31,9 @@ Last modified:
   margin: -0.5rem 1rem 0 0.5rem;
   float: right;
 }
+.header .nav__menuLinks--item .nav__menuLinks--itemImg {
+  width: 1rem;
+}
 .fa {
   color: white;
 }
