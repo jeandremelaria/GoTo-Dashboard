@@ -9,44 +9,6 @@ Project type: Dashboard.
 File created date: 25.01.2018
 Last modified: 
 */
-.header {
-  height: 3.1rem;
-  background-color: #4F80E1;
-  padding: 0.3rem;
-}
-.header .header__logo {
-  background-color: #3A5EA6;
-  top: -0.27rem;
-  height: 3.1rem;
-}
-.header .header__logo--style {
-  color: white;
-  margin-left: 2.3rem;
-  padding-top: 0.5rem;
-}
-.header .header__menuToggle .header__menuToggle--icon {
-  padding-top: 0.7rem;
-}
-.header .nav__menuLinks--item {
-  margin: -0.5rem 1rem 0 0.5rem;
-  float: right;
-}
-.header .nav__menuLinks--item .nav__menuLinks--itemImg {
-  width: 1rem;
-}
-.fa {
-  color: white;
-}
-.badge {
-  display: block;
-  position: relative;
-  top: -1.6rem;
-  margin-left: 1rem;
-  font-size: 0.6rem;
-}
-.badge-warning {
-  margin-left: 0.8rem;
-}
 * {
   box-sizing: border-box;
   margin: 0;
