@@ -29,13 +29,23 @@ Last modified:
   display: block;
   position: relative;
   top: 0.6rem;
-  right: -2rem;
+  right: -4rem;
+}
+.header .nav .nav__menuLinks--item {
+  margin-left: 0.2rem;
 }
 .header .nav .nav__menuLinks--item .nav__menuLinks--img {
   width: 1.5rem;
 }
 .fa {
   color: white;
+}
+.badge {
+  display: inline-block;
+  position: relative;
+  top: -0.6rem;
+  left: -0.3rem;
+  font-size: 0.6rem;
 }
 * {
   box-sizing: border-box;
