@@ -41,8 +41,20 @@ Last modified:
   margin: 0.5rem;
   color: white;
 }
+.header .dropdown__menuItem--img {
+  width: 3rem;
+}
 .fa {
   color: white;
+}
+.fa:hover {
+  color: #292C44;
+}
+.fa:focus {
+  color: purple;
+}
+.fa:active {
+  color: yellow;
 }
 .badge {
   display: inline-block;

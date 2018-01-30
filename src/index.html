@@ -56,12 +56,27 @@ Last modified:
                             <li class="nav__menuLinks--item list-inline-item">
                                 <div class="dropdown show">
                                     <a class="dropdown__link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="nav__menuLinks--itemIcon fa fa-envelope-o" aria-hidden="true"></i><span class="badge badge-success">4</span>
+                                        <i id="envelope" class="nav__menuLinks--itemIcon fa fa-envelope-o" aria-hidden="true"></i><span class="badge badge-success">4</span>
                                     </a>
 
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-item"><small>You have 4 messages</small></div>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <ul class="list-inline">
+                                                <li><img class="dropdown__menuItem--img img-fluid rounded-circle" src="img/user-profile-pic1.jpg" alt="User profile"></li>
+                                                <li class="list-inline-item">
+                                                    <h6>Support Team</h6>
+                                                </li>
+                                            </ul>
+
+
+                                            <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                                            <p>Why not buy a new awesome theme?</p>
+
+
+
+                                        </a>
                                         <a class="dropdown-item" href="#">Something else here</a>
                                     </div>
                                 </div>
@@ -88,6 +103,13 @@ Last modified:
 
         </header>
     </main>
+    <script>
+        // document.getElementById('envelope').addEventListener('click', iconColor);
+
+        // function iconColor() {
+        //     document.getElementById('envelope').classList.toggle('active');
+        // }
+    </script>
     <!-- Bootstrap core JavaScript -->
     <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="../node_modules/popper.js/dist/popper.min.js"></script>

@@ -21,6 +21,7 @@ Last modified:
 // Color
 @blueMid:#4F80E1;
 @blueDark:#3A5EA6;
+@greyDark:#292C44;
 @white:white;
 
 // Font
@@ -68,17 +69,28 @@ Last modified:
         .nav__menuLinks-userName {
           margin:(@margin - 0.5rem);
           color:@white;
-        }
-        .dropdown__link {
-          // background-color:red;
-        }
+        } 
       }
     }
    
   }
+  .dropdown__menuItem--img {
+    width: (@width + 1.5rem);
+  }
 }
 .fa {
   color:@white;
+  &:hover {
+    color:@greyDark;
+  }
+  &:focus {
+    color:purple;
+  }
+ &:active {
+     color: yellow;
+  
+  }
+  
 }
 .badge {
   display:inline-block;
