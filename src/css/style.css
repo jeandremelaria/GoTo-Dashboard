@@ -37,6 +37,10 @@ Last modified:
 .header .nav .nav__menuLinks--item .nav__menuLinks--img {
   width: 1.5rem;
 }
+.header .nav .nav__menuLinks--item .nav__menuLinks-userName {
+  margin: 0.5rem;
+  color: white;
+}
 .fa {
   color: white;
 }
@@ -52,8 +56,21 @@ Last modified:
   margin: 0;
   padding: 0;
 }
+@media (min-width: 575px) {
+  .nav__menuLinks-userName {
+    display: none;
+  }
+}
 @media (min-width: 768px) {
   .nav__menuLinks {
     margin-left: -2rem;
+  }
+  .nav__menuLinks-userName {
+    display: initial;
+  }
+}
+@media (min-width: 992px) {
+  .nav__menuLinks {
+    margin-left: 3rem;
   }
 }

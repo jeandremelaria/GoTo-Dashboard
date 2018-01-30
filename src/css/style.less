@@ -47,6 +47,7 @@ Last modified:
   }
   .header__menuToggle {
     background-color:@blueMid;
+ 
     height:@height;
     padding-top:(@padding + 0.3rem);
   }
@@ -63,6 +64,10 @@ Last modified:
         margin-left:0.2rem;
         .nav__menuLinks--img {
           width: @width;
+        }
+        .nav__menuLinks-userName {
+          margin:(@margin - 0.5rem);
+          color:@white;
         }
       }
     }
@@ -91,6 +96,13 @@ Last modified:
 
 
 // === === Media queries === === //
+// Extra small devices (portrait phones, less than 576px)
+@media (min-width: 575px) {  
+  .nav__menuLinks-userName {
+    display: none;
+  }
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {  }
 
@@ -99,10 +111,18 @@ Last modified:
   .nav__menuLinks {
     margin-left:-2rem;
   }
+  .nav__menuLinks-userName {
+    display: initial;
+  }
  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {  
+  .nav__menuLinks {
+    margin-left:3rem;
+  }
+  
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }
