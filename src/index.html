@@ -54,7 +54,19 @@ Last modified:
                     <nav>
                         <ul class="nav__menuLinks list-inline">
                             <li class="nav__menuLinks--item list-inline-item">
-                                <a href="#"><i class="nav__menuLinks--itemIcon fa fa-envelope-o" aria-hidden="true"></i><span class="badge badge-success">4</span></a>
+                                <div class="dropdown show">
+                                    <a class="dropdown__link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="nav__menuLinks--itemIcon fa fa-envelope-o" aria-hidden="true"></i><span class="badge badge-success">4</span>
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+
+
                             </li>
                             <li class="nav__menuLinks--item list-inline-item">
                                 <a href="#"><i class="nav__menuLinks--itemIcon fa fa-bell-o" aria-hidden="true"></i><span class="badge badge-warning">9</span></a>
@@ -76,7 +88,10 @@ Last modified:
 
         </header>
     </main>
-
+    <!-- Bootstrap core JavaScript -->
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
