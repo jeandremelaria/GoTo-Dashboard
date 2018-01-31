@@ -29,30 +29,32 @@ Last modified:
 .header .header__menuToggle .header__menuToggle--icon {
   padding-left: 1rem;
 }
-.header .nav {
+.header .headerMiddleBar {
   background-color: #4F80E1;
 }
-.header .nav .nav__menuLinks {
+.header .navEnvelope {
+  background-color: #4F80E1;
+}
+.header .navEnvelope:hover {
+  background-color: #3A5EA6;
+}
+.header .navEnvelope .navEnvelope__menuLinks {
   display: block;
   position: relative;
-  top: 0.6rem;
-  right: -4rem;
-}
-.header .nav .nav__menuLinks--item {
-  margin-left: 0.2rem;
-}
-.header .nav .nav__menuLinks--item .nav__menuLinks--img {
-  width: 1.5rem;
-}
-.header .nav .nav__menuLinks--item .nav__menuLinks-userName {
-  margin: 0.5rem;
-  color: white;
+  width: 3rem;
+  top: 0.8rem;
+  left: 1rem;
 }
 .header .dropdown__menuItem--img {
   width: 3rem;
+  margin-right: 0.5rem;
 }
 .fa {
   color: white;
+}
+.fa-clock-o {
+  color: #292C44 !important;
+  font-size: 0.8rem;
 }
 .badge {
   display: inline-block;

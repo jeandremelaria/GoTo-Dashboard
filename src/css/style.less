@@ -59,34 +59,39 @@ Last modified:
       padding-left:1rem;
     }
   }
-  .nav {
+
+  .headerMiddleBar {
     background-color:@blueMid;
-    .nav__menuLinks {
-      display: block;
-      position: relative;
-      top:0.6rem;
-      right:-4rem;
-    
-      
-      &--item {
-        margin-left:0.2rem;
-        .nav__menuLinks--img {
-          width: @width;
-        }
-        .nav__menuLinks-userName {
-          margin:(@margin - 0.5rem);
-          color:@white;
-        } 
-      }
+  }
+  .navEnvelope {
+    background-color:@blueMid;
+    &:hover {
+      background-color:@blueDark;
     }
-   
+      .navEnvelope__menuLinks {
+        display: block;
+        position: relative;
+        width: (@width * 2);
+        top:0.8rem;
+        left:1rem;
+
+       
+    }
   }
   .dropdown__menuItem--img {
     width: (@width + 1.5rem);
+    margin-right: (@margin - 0.5rem);
   }
+
 }
+
+
 .fa {
   color:@white;
+}
+.fa-clock-o {
+  color:@greyDark!important;
+  font-size: 0.8rem;
 }
 .badge {
   display:inline-block;
@@ -137,4 +142,3 @@ Last modified:
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }
-
