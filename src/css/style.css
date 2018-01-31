@@ -49,6 +49,9 @@ Last modified:
   width: 3rem;
   margin-right: 0.5rem;
 }
+.header .dropdown__menuItem--text {
+  margin-right: 4rem;
+}
 .fa {
   color: white;
 }
