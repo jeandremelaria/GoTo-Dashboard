@@ -33,17 +33,24 @@ Last modified:
   background-color: #4F80E1;
 }
 .header .navEnvelope,
-.header .navNotifications {
+.header .navNotifications,
+.header .navTask {
   background-color: #4F80E1;
 }
 .header .navEnvelope:hover,
-.header .navNotifications:hover {
+.header .navNotifications:hover,
+.header .navTask:hover {
   background-color: #3A5EA6;
 }
 .header .navEnvelope .navEnvelope__menuLinks,
 .header .navNotifications .navEnvelope__menuLinks,
+.header .navTask .navEnvelope__menuLinks,
 .header .navEnvelope .navNotifications__menuLinks,
-.header .navNotifications .navNotifications__menuLinks {
+.header .navNotifications .navNotifications__menuLinks,
+.header .navTask .navNotifications__menuLinks,
+.header .navEnvelope .navTask__menuLinks,
+.header .navNotifications .navTask__menuLinks,
+.header .navTask .navTask__menuLinks {
   display: block;
   position: relative;
   width: 3rem;

@@ -39,7 +39,6 @@ Last modified:
 
 // === === Mixings === === //
 .header {
-  
   .header__logo {
     background-color:@blueDark;
     padding-top:(@padding - 0.2rem);
@@ -48,7 +47,6 @@ Last modified:
     &--style {
       color:@white;
     }
-
   }
   .header__menuToggle {
     background-color:@blueMid;
@@ -67,19 +65,17 @@ Last modified:
   .headerMiddleBar {
     background-color:@blueMid;
   }
-  .navEnvelope, .navNotifications {
+  .navEnvelope, .navNotifications, .navTask {
     background-color:@blueMid;
     &:hover {
       background-color:@blueDark;
     }
-      .navEnvelope__menuLinks, .navNotifications__menuLinks {
+      .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks {
         display: block;
         position: relative;
         width: (@width * 2);
         top:0.8rem;
         left:1rem;
-
-       
     }
   }
 
@@ -117,6 +113,7 @@ Last modified:
 .fa-user {
   color:@red;
 }
+
 .badge {
   display:inline-block;
   position: relative;
