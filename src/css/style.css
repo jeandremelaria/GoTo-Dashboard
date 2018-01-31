@@ -78,6 +78,9 @@ Last modified:
   .nav__menuLinks-userName {
     display: none;
   }
+  .dropdown-menu {
+    left: -40rem;
+  }
 }
 @media (min-width: 768px) {
   .nav__menuLinks {
