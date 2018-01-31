@@ -48,9 +48,16 @@ Last modified:
   }
   .header__menuToggle {
     background-color:@blueMid;
- 
+    width: (@width * 2);
     height:@height;
     padding-top:(@padding + 0.3rem);
+    &:hover {
+      background-color:@blueDark;
+    }
+
+    .header__menuToggle--icon {
+      padding-left:1rem;
+    }
   }
   .nav {
     background-color:@blueMid;
@@ -80,17 +87,6 @@ Last modified:
 }
 .fa {
   color:@white;
-  &:hover {
-    color:@greyDark;
-  }
-  &:focus {
-    color:purple;
-  }
- &:active {
-     color: yellow;
-  
-  }
-  
 }
 .badge {
   display:inline-block;

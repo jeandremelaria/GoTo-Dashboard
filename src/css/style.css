@@ -19,8 +19,15 @@ Last modified:
 }
 .header .header__menuToggle {
   background-color: #4F80E1;
+  width: 3rem;
   height: 3.1rem;
   padding-top: 0.8rem;
+}
+.header .header__menuToggle:hover {
+  background-color: #3A5EA6;
+}
+.header .header__menuToggle .header__menuToggle--icon {
+  padding-left: 1rem;
 }
 .header .nav {
   background-color: #4F80E1;
@@ -46,15 +53,6 @@ Last modified:
 }
 .fa {
   color: white;
-}
-.fa:hover {
-  color: #292C44;
-}
-.fa:focus {
-  color: purple;
-}
-.fa:active {
-  color: yellow;
 }
 .badge {
   display: inline-block;
