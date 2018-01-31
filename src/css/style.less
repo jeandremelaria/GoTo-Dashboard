@@ -65,12 +65,12 @@ Last modified:
   .headerMiddleBar {
     background-color:@blueMid;
   }
-  .navEnvelope, .navNotifications, .navTask {
+  .navEnvelope, .navNotifications, .navTask, .navUser {
     background-color:@blueMid;
     &:hover {
       background-color:@blueDark;
     }
-      .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks {
+      .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks {
         display: block;
         position: relative;
         width: (@width * 2);
@@ -81,7 +81,12 @@ Last modified:
 
   .dropdown__menuItem--img {
     width: (@width + 1.5rem);
-    margin-right: (@margin - 0.5rem);
+    margin-top:-0.3rem;
+    margin-left:-0.5rem;
+  }
+  .dropdown__menuItem--imgProfile {
+    width:(@width + 3.5rem);
+    margin-bottom: @margin;
   }
   .dropdown__menuItem--text {
     margin-right:4rem;
