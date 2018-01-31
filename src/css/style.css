@@ -32,13 +32,18 @@ Last modified:
 .header .headerMiddleBar {
   background-color: #4F80E1;
 }
-.header .navEnvelope {
+.header .navEnvelope,
+.header .navNotifications {
   background-color: #4F80E1;
 }
-.header .navEnvelope:hover {
+.header .navEnvelope:hover,
+.header .navNotifications:hover {
   background-color: #3A5EA6;
 }
-.header .navEnvelope .navEnvelope__menuLinks {
+.header .navEnvelope .navEnvelope__menuLinks,
+.header .navNotifications .navEnvelope__menuLinks,
+.header .navEnvelope .navNotifications__menuLinks,
+.header .navNotifications .navNotifications__menuLinks {
   display: block;
   position: relative;
   width: 3rem;
@@ -61,6 +66,18 @@ Last modified:
 .fa-clock-o {
   color: #292C44 !important;
   font-size: 0.8rem;
+}
+.fa-users {
+  color: #00CDCD;
+}
+.fa-exclamation-triangle {
+  color: #FF8C00;
+}
+.fa-shopping-cart {
+  color: #008000;
+}
+.fa-user {
+  color: #FF0000;
 }
 .badge {
   display: inline-block;

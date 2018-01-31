@@ -23,6 +23,10 @@ Last modified:
 @blueDark:#3A5EA6;
 @greyDark:#292C44;
 @white:white;
+@cyan:#00CDCD;
+@darkorange:#FF8C00;
+@green:#008000;
+@red:#FF0000;
 
 // Font
 @fontSize:2rem;
@@ -63,12 +67,12 @@ Last modified:
   .headerMiddleBar {
     background-color:@blueMid;
   }
-  .navEnvelope {
+  .navEnvelope, .navNotifications {
     background-color:@blueMid;
     &:hover {
       background-color:@blueDark;
     }
-      .navEnvelope__menuLinks {
+      .navEnvelope__menuLinks, .navNotifications__menuLinks {
         display: block;
         position: relative;
         width: (@width * 2);
@@ -78,6 +82,7 @@ Last modified:
        
     }
   }
+
   .dropdown__menuItem--img {
     width: (@width + 1.5rem);
     margin-right: (@margin - 0.5rem);
@@ -99,6 +104,18 @@ Last modified:
 .fa-clock-o {
   color:@greyDark!important;
   font-size: 0.8rem;
+}
+.fa-users {
+  color:@cyan;
+}
+.fa-exclamation-triangle {
+  color:@darkorange;
+}
+.fa-shopping-cart {
+  color:@green;
+}
+.fa-user {
+  color:@red;
 }
 .badge {
   display:inline-block;
