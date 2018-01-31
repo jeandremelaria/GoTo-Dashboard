@@ -52,6 +52,9 @@ Last modified:
 .header .dropdown__menuItem--text {
   margin-right: 4rem;
 }
+.dropdown-item:active {
+  background-color: #3A5EA6;
+}
 .fa {
   color: white;
 }
