@@ -151,6 +151,9 @@ Last modified:
 // === === Media queries === === //
 // Extra small devices (portrait phones, less than 576px)
 @media (min-width: 575px) {  
+  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettngs__menuLinks {
+    margin-right:0.59rem;
+}
   .nav__menuLinks-userName {
     display: none;
   }
@@ -160,10 +163,17 @@ Last modified:
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { 
+  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettngs__menuLinks {
+    margin-right:0.6rem;
+}
+ }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
+  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettngs__menuLinks {
+    margin-right:1.2rem;
+}
   .nav__menuLinks {
     margin-left:-2rem;
   }
@@ -174,6 +184,9 @@ Last modified:
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {  
+  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettngs__menuLinks {
+    margin-right:1.5rem;
+}
   .nav__menuLinks {
     margin-left:3rem;
   }
@@ -181,4 +194,8 @@ Last modified:
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {  
+  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettngs__menuLinks {
+    margin-right:2.5rem;
+}
+}
