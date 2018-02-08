@@ -67,6 +67,12 @@ Last modified:
   left: 1rem;
 }
 .header .dropdown__menuItem--img {
+  width: 2rem;
+  margin-top: -0.3rem;
+  margin-left: -0.5rem;
+  margin-right: 0.5rem;
+}
+.header .dropdown__menuItem--imgMessages {
   width: 4rem;
   margin-top: -0.3rem;
   margin-left: -0.5rem;
