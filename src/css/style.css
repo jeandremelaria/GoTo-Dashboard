@@ -35,31 +35,42 @@ Last modified:
 .header .navEnvelope,
 .header .navNotifications,
 .header .navTask,
-.header .navUser {
+.header .navUser,
+.header .navSettngs {
   background-color: #4F80E1;
 }
 .header .navEnvelope:hover,
 .header .navNotifications:hover,
 .header .navTask:hover,
-.header .navUser:hover {
+.header .navUser:hover,
+.header .navSettngs:hover {
   background-color: #3A5EA6;
 }
 .header .navEnvelope .navEnvelope__menuLinks,
 .header .navNotifications .navEnvelope__menuLinks,
 .header .navTask .navEnvelope__menuLinks,
 .header .navUser .navEnvelope__menuLinks,
+.header .navSettngs .navEnvelope__menuLinks,
 .header .navEnvelope .navNotifications__menuLinks,
 .header .navNotifications .navNotifications__menuLinks,
 .header .navTask .navNotifications__menuLinks,
 .header .navUser .navNotifications__menuLinks,
+.header .navSettngs .navNotifications__menuLinks,
 .header .navEnvelope .navTask__menuLinks,
 .header .navNotifications .navTask__menuLinks,
 .header .navTask .navTask__menuLinks,
 .header .navUser .navTask__menuLinks,
+.header .navSettngs .navTask__menuLinks,
 .header .navEnvelope .navUser__menuLinks,
 .header .navNotifications .navUser__menuLinks,
 .header .navTask .navUser__menuLinks,
-.header .navUser .navUser__menuLinks {
+.header .navUser .navUser__menuLinks,
+.header .navSettngs .navUser__menuLinks,
+.header .navEnvelope .navSettngs__menuLinks,
+.header .navNotifications .navSettngs__menuLinks,
+.header .navTask .navSettngs__menuLinks,
+.header .navUser .navSettngs__menuLinks,
+.header .navSettngs .navSettngs__menuLinks {
   display: block;
   position: relative;
   width: 3rem;
