@@ -66,11 +66,57 @@ Last modified:
       padding-left:0.1rem;
     }
   }
+  .navEnvelope, .navNotifications, .navTask, .navUser, .navSettings {
+    background-color:@blueMid;
+    &:hover {
+      background-color:@blueDark;
+    }
+  }
+
+  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
+    display: block;
+    position: relative;
+    width: (@width * 1.5);
+    top:0.8rem;
+    left:-0.1rem;
+}
+.dropdown__menuItem--img {
+  width: (@width + 0.5rem);
+  margin-top:-0.3rem;
+  margin-left:-0.5rem;
+  margin-right:(@margin - 0.5rem);
+
+}
+.dropdown__menuItem--imgMessages {
+  width: (@width + 2.5rem);
+  margin-top:-0.3rem;
+  margin-left:-0.5rem;
+  margin-right:(@margin - 0.5rem);
+}
+.dropdown__menuItem--imgProfile {
+  width:(@width + 5rem);
+  margin-bottom: @margin;
+}
+.dropdown__menuItem--buttons {
+  margin: @margin 0 (@margin - 0.6rem) 0;
+}
+.dropdown__menuItem--text {
+  margin-right:4rem;
+}
+
+
 
 }
 
 .fa {
   color:@white;
+}
+.badge {
+  display:inline-block;
+  position: relative;
+  top:-0.6rem;
+  left:-0.3rem;
+  font-size:0.6rem;
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -83,6 +129,10 @@ Last modified:
   .header__menuToggle--icon {
     margin-left:0.5rem;
   }
+  
+  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
+    left:0.5rem!important;
+}
  }
 
 // Large devices (desktops, 992px and up)
@@ -90,6 +140,10 @@ Last modified:
   .header__menuToggle--icon {
     margin-left:1rem;
   }
+
+  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
+    margin:0 auto;
+}
 }
 
 // Extra large devices (large desktops, 1200px and up)
