@@ -80,6 +80,11 @@ Last modified:
 .header .dropdown__menuItem--text {
   margin-right: 4rem;
 }
+.header .dropdown__menuItem--img {
+  width: 2rem;
+  margin-top: -0.3rem;
+  margin-left: -0.35rem;
+}
 .fa {
   color: white;
 }
