@@ -75,6 +75,9 @@ Last modified:
   width: 6.5rem;
   margin-bottom: 1rem;
 }
+.header .dropdown__menuItem--buttons {
+  margin: 1rem 0 0.4rem 0;
+}
 .header .dropdown__menuItem--text {
   margin-right: 4rem;
 }
