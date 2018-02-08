@@ -9,6 +9,9 @@ Project type: Dashboard.
 File created date: 25.01.2018
 Last modified: 
 */
+.header {
+  background-color: #4F80E1;
+}
 .header .header__logo {
   background-color: #3A5EA6;
   padding-top: 0.3rem;
@@ -17,116 +20,8 @@ Last modified:
 .header .header__logo--style {
   color: white;
 }
-.header .header__menuToggle {
-  background-color: #4F80E1;
-  width: 3rem;
-  height: 3.1rem;
-  padding-top: 0.8rem;
-}
-.header .header__menuToggle:hover {
-  background-color: #3A5EA6;
-}
-.header .header__menuToggle .header__menuToggle--icon {
-  padding-left: 1rem;
-}
-.header .headerMiddleBar {
-  background-color: #4F80E1;
-}
-.header .navEnvelope,
-.header .navNotifications,
-.header .navTask,
-.header .navUser,
-.header .navSettngs {
-  background-color: #4F80E1;
-}
-.header .navEnvelope:hover,
-.header .navNotifications:hover,
-.header .navTask:hover,
-.header .navUser:hover,
-.header .navSettngs:hover {
-  background-color: #3A5EA6;
-}
-.header .navEnvelope .navEnvelope__menuLinks,
-.header .navNotifications .navEnvelope__menuLinks,
-.header .navTask .navEnvelope__menuLinks,
-.header .navUser .navEnvelope__menuLinks,
-.header .navSettngs .navEnvelope__menuLinks,
-.header .navEnvelope .navNotifications__menuLinks,
-.header .navNotifications .navNotifications__menuLinks,
-.header .navTask .navNotifications__menuLinks,
-.header .navUser .navNotifications__menuLinks,
-.header .navSettngs .navNotifications__menuLinks,
-.header .navEnvelope .navTask__menuLinks,
-.header .navNotifications .navTask__menuLinks,
-.header .navTask .navTask__menuLinks,
-.header .navUser .navTask__menuLinks,
-.header .navSettngs .navTask__menuLinks,
-.header .navEnvelope .navUser__menuLinks,
-.header .navNotifications .navUser__menuLinks,
-.header .navTask .navUser__menuLinks,
-.header .navUser .navUser__menuLinks,
-.header .navSettngs .navUser__menuLinks,
-.header .navEnvelope .navSettngs__menuLinks,
-.header .navNotifications .navSettngs__menuLinks,
-.header .navTask .navSettngs__menuLinks,
-.header .navUser .navSettngs__menuLinks,
-.header .navSettngs .navSettngs__menuLinks {
-  display: block;
-  position: relative;
-  width: 3rem;
-  top: 0.8rem;
-  left: 1rem;
-}
-.header .dropdown__menuItem--img {
-  width: 2rem;
-  margin-top: -0.3rem;
-  margin-left: -0.5rem;
-  margin-right: 0.5rem;
-}
-.header .dropdown__menuItem--imgMessages {
-  width: 4rem;
-  margin-top: -0.3rem;
-  margin-left: -0.5rem;
-  margin-right: 0.5rem;
-}
-.header .dropdown__menuItem--imgProfile {
-  width: 6.5rem;
-  margin-bottom: 1rem;
-}
-.header .dropdown__menuItem--buttons {
-  margin: 1rem 0 0.4rem 0;
-}
-.header .dropdown__menuItem--text {
-  margin-right: 4rem;
-}
-.dropdown-item:active {
-  background-color: #3A5EA6;
-}
 .fa {
   color: white;
-}
-.fa-clock-o {
-  color: #292C44 !important;
-  font-size: 0.8rem;
-}
-.fa-users {
-  color: #00CDCD;
-}
-.fa-exclamation-triangle {
-  color: #FF8C00;
-}
-.fa-shopping-cart {
-  color: #008000;
-}
-.fa-user {
-  color: #FF0000;
-}
-.badge {
-  display: inline-block;
-  position: relative;
-  top: -0.6rem;
-  left: -0.3rem;
-  font-size: 0.6rem;
 }
 * {
   box-sizing: border-box;

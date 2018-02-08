@@ -39,104 +39,118 @@ Last modified:
 
 // === === Mixings === === //
 .header {
+  background-color:@blueMid;
+  
   .header__logo {
-    background-color:@blueDark;
-    padding-top:(@padding - 0.2rem);
-    height:@height;
-
-    &--style {
-      color:@white;
-    }
+        background-color:@blueDark;
+        padding-top:(@padding - 0.2rem);
+        height:@height;
+        &--style {
+          color:@white;
   }
-  .header__menuToggle {
-    background-color:@blueMid;
-    width: (@width * 2);
-    height:@height;
-    padding-top:(@padding + 0.3rem);
-    &:hover {
-      background-color:@blueDark;
-    }
-
-    .header__menuToggle--icon {
-      padding-left:1rem;
-    }
   }
-
-  .headerMiddleBar {
-    background-color:@blueMid;
-  }
-  .navEnvelope, .navNotifications, .navTask, .navUser, .navSettngs {
-    background-color:@blueMid;
-    &:hover {
-      background-color:@blueDark;
-    }
-      .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettngs__menuLinks {
-        display: block;
-        position: relative;
-        width: (@width * 2);
-        top:0.8rem;
-        left:1rem;
-    }
-  }
-
-  .dropdown__menuItem--img {
-    width: (@width + 0.5rem);
-    margin-top:-0.3rem;
-    margin-left:-0.5rem;
-    margin-right:(@margin - 0.5rem);
-
-  }
-  .dropdown__menuItem--imgMessages {
-    width: (@width + 2.5rem);
-    margin-top:-0.3rem;
-    margin-left:-0.5rem;
-    margin-right:(@margin - 0.5rem);
-  }
-  .dropdown__menuItem--imgProfile {
-    width:(@width + 5rem);
-    margin-bottom: @margin;
-  }
-  .dropdown__menuItem--buttons {
-    margin: @margin 0 (@margin - 0.6rem) 0;
-  }
-  .dropdown__menuItem--text {
-    margin-right:4rem;
-  }
-
+  
 }
+// .header {
+//   background-color:@blueMid;
+//   .header__logo {
+//     background-color:@blueDark;
+//     padding-top:(@padding - 0.2rem);
+//     height:@height;
 
-.dropdown-item {
-  &:active {
-    background-color:@blueDark;
-  }
-}
+//     &--style {
+//       color:@white;
+//     }
+//   }
+//   .header__menuToggle {
+//     background-color:@blueMid;
+//     width: (@width * 2);
+//     height:@height;
+//     padding-top:(@padding + 0.3rem);
+//     &:hover {
+//       background-color:@blueDark;
+//     }
+
+//     .header__menuToggle--icon {
+//       padding-left:1rem;
+//     }
+//   }
+
+//   .headerMiddleBar {
+//     background-color:@blueMid;
+//   }
+//   .navEnvelope, .navNotifications, .navTask, .navUser, .navSettngs {
+//     background-color:@blueMid;
+//     &:hover {
+//       background-color:@blueDark;
+//     }
+//       .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettngs__menuLinks {
+//         display: block;
+//         position: relative;
+//         width: (@width * 2);
+//         top:0.8rem;
+//         left:1rem;
+//     }
+//   }
+
+//   .dropdown__menuItem--img {
+//     width: (@width + 0.5rem);
+//     margin-top:-0.3rem;
+//     margin-left:-0.5rem;
+//     margin-right:(@margin - 0.5rem);
+
+//   }
+//   .dropdown__menuItem--imgMessages {
+//     width: (@width + 2.5rem);
+//     margin-top:-0.3rem;
+//     margin-left:-0.5rem;
+//     margin-right:(@margin - 0.5rem);
+//   }
+//   .dropdown__menuItem--imgProfile {
+//     width:(@width + 5rem);
+//     margin-bottom: @margin;
+//   }
+//   .dropdown__menuItem--buttons {
+//     margin: @margin 0 (@margin - 0.6rem) 0;
+//   }
+//   .dropdown__menuItem--text {
+//     margin-right:4rem;
+//   }
+
+// }
+
+// .dropdown-item {
+//   &:active {
+//     background-color:@blueDark;
+//   }
+// }
 .fa {
   color:@white;
 }
-.fa-clock-o {
-  color:@greyDark!important;
-  font-size: 0.8rem;
-}
-.fa-users {
-  color:@cyan;
-}
-.fa-exclamation-triangle {
-  color:@darkorange;
-}
-.fa-shopping-cart {
-  color:@green;
-}
-.fa-user {
-  color:@red;
-}
+// .fa-clock-o {
+//   color:@greyDark!important;
+//   font-size: 0.8rem;
+// }
+// .fa-users {
+//   color:@cyan;
+// }
+// .fa-exclamation-triangle {
+//   color:@darkorange;
+// }
+// .fa-shopping-cart {
+//   color:@green;
+// }
+// .fa-user {
+//   color:@red;
+// }
 
-.badge {
-  display:inline-block;
-  position: relative;
-  top:-0.6rem;
-  left:-0.3rem;
-  font-size:0.6rem;
-}
+// .badge {
+//   display:inline-block;
+//   position: relative;
+//   top:-0.6rem;
+//   left:-0.3rem;
+//   font-size:0.6rem;
+// }
 
 
 
