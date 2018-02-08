@@ -83,6 +83,22 @@ Last modified:
 .fa {
   color: white;
 }
+.fa-clock-o {
+  color: #292C44 !important;
+  font-size: 0.8rem;
+}
+.fa-users {
+  color: #00CDCD;
+}
+.fa-exclamation-triangle {
+  color: #FF8C00;
+}
+.fa-shopping-cart {
+  color: #008000;
+}
+.fa-user {
+  color: #FF0000;
+}
 .badge {
   display: inline-block;
   position: relative;
