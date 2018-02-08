@@ -38,8 +38,40 @@ Last modified:
 // === === Functions === === //
 
 // === === Mixings === === //
+.header {
+  background-color:@blueMid;
+  height: @height;
 
+  .header__logo {
+    background-color:@blueDark;
+    padding-top:(@padding - 0.2rem);
+    height:@height;
 
+    &--style {
+      color:@white;
+    }
+
+  }
+
+  .header__menuToggle {
+    background-color:@blueMid;
+    width: (@width * 2);
+    height:@height;
+    padding-top:(@padding + 0.3rem);
+    &:hover {
+      background-color:@blueDark;
+    }
+
+    .header__menuToggle--icon {
+      padding-left:0.1rem;
+    }
+  }
+
+}
+
+.fa {
+  color:@white;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -48,16 +80,21 @@ Last modified:
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-
+  .header__menuToggle--icon {
+    margin-left:0.5rem;
+  }
  }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {  
- 
-  
+  .header__menuToggle--icon {
+    margin-left:1rem;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  
- 
+  .header__menuToggle--icon {
+    margin-left:2rem;
+  }
 }
