@@ -163,7 +163,7 @@ Last modified:
   .navTask__menuLinks,
   .navUser__menuLinks,
   .navSettngs__menuLinks {
-    margin-right: 1.2rem;
+    margin-right: 0.3rem;
   }
   .nav__menuLinks {
     margin-left: -2rem;
@@ -178,7 +178,8 @@ Last modified:
   .navTask__menuLinks,
   .navUser__menuLinks,
   .navSettngs__menuLinks {
-    margin-right: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
   }
   .nav__menuLinks {
     margin-left: 3rem;
@@ -190,6 +191,7 @@ Last modified:
   .navTask__menuLinks,
   .navUser__menuLinks,
   .navSettngs__menuLinks {
-    margin-right: 2.5rem;
+    margin-right: 1.05rem;
+    margin-left: 1.04rem;
   }
 }
