@@ -279,24 +279,45 @@ Last modified:
                 <!-- Settings -->
                 <div class="navSettings col-1 col-md-1">
                     <ul class="navSettings__menuLinks list-inline">
-                        <li class="navSettngs__menuLinks--item list-inline-item">
-                            <a class="navSettngs__dropdown--link " href="#">
-                                <i class="navSettngs__menuLinks--itemIcon fa fa-cogs" aria-hidden="true"></i>
-                            </a>
+                        <li class="navSettings__menuLinks--item list-inline-item">
+                            <div class="dropdown dropleft">
+                                <a class="navSettings__dropdown--link " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="navSettngs__menuLinks--itemIcon fa fa-cogs" aria-hidden="true"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item text-center" href="#"><small>General Settings</small></a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item text-left" href="#">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Report panel usage</label>
+                                        </div>
+                                    </a>
+                                    <!-- <div class="dropdown-divider"></div> -->
+                                    <a class="dropdown-item text-left" href="#">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Allow mail redirect</label>
+                                        </div>
+                                    </a>
+                                    <!-- <div class="dropdown-divider"></div> -->
+                                    <a class="dropdown-item text-left" href="#">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Expose author name in posts</label>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
                         </li>
                     </ul>
                 </div>
                 <!-- /Settings -->
-            </div>
         </header>
     </main>
-    <script>
-        // document.getElementById('envelope').addEventListener('click', iconColor);
 
-        // function iconColor() {
-        //     document.getElementById('envelope').classList.toggle('active');
-        // }
-    </script>
     <!-- Bootstrap core JavaScript -->
     <script src="../node_modules/jquery/dist/jquery.slim.min.js "></script>
     <script src="../node_modules/popper.js/dist/popper.min.js "></script>
