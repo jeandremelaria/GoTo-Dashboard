@@ -118,16 +118,19 @@ Last modified:
 }
 .sideMenu {
   display:block;
-  position: relative;
-  top:3.1rem;
+  position: fixed;
+  top:8.2rem;
   left:-1rem;
   width:0rem;
   overflow-x: hidden;
+  transition: 0.5s ease-in-out;
+}
+.main {
+  display: block;
+  position: relative;
+  top:6.2rem;
 }
 
-// .sideMenu__links {
-//   display:block;
-// }
 
 .fa {
   color:@white;
