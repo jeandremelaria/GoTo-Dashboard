@@ -48,7 +48,7 @@ Last modified:
                 </div>
                 <!-- Toggle menu -->
                 <div class="header header__menuToggle col-1 col-md-1">
-                    <a href="#">
+                    <a id="menuToggle" href="#">
                         <i class="header__menuToggle--icon fa fa-bars" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -316,8 +316,45 @@ Last modified:
                 </div>
                 <!-- /Settings -->
         </header>
+        <aside class="container-fluid">
+            <div class="row">
+                <div id="sideMenu" class="sideMenu" style="background-color:red">
+                    <ul id="sideMenu__links" class="sideMenu__links">
+                        <li>user</li>
+                        <li>search</li>
+                    </ul>
+                    <ul id="sideMenu__links" class="sideMenu__links">
+                        <li>link 1</li>
+                        <li>link 2</li>
+                        <li>link 3</li>
+                        <li>link 4</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div id="main" class="main">
+            <h1>main</h1>
+        </div>
     </main>
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', toggleSideMenu);
 
+        function toggleSideMenu(e) {
+            var sideMenu = document.getElementById('sideMenu');
+            var sideMenu__links = document.getElementById('sideMenu__links');
+            var main = document.getElementById('main');
+
+            if (sideMenu.style.width === '10rem' && main.style.marginLeft === '10rem') {
+                sideMenu.style.width = '0';
+                sideMenu__links.style.display = 'none';
+                main.style.marginLeft = '0';
+            } else {
+                sideMenu.style.width = '10rem';
+                main.style.marginLeft = '10rem';
+
+            }
+        }
+    </script>
     <!-- Bootstrap core JavaScript -->
     <script src="../node_modules/jquery/dist/jquery.slim.min.js "></script>
     <script src="../node_modules/popper.js/dist/popper.min.js "></script>
