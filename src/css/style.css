@@ -96,11 +96,20 @@ Last modified:
 .sideMenu {
   display: block;
   position: fixed;
-  top: 8.2rem;
+  top: 6.2rem;
   left: -1rem;
-  width: 0rem;
-  overflow-x: hidden;
-  transition: 0.5s ease-in-out;
+  width: 16rem;
+  background-color: #222D32;
+}
+.sideMenu .sideMenu__links {
+  margin-left: 1.5rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1rem;
+}
+.sideMenu .sideMenu__links--img {
+  width: 3.5rem;
+  margin-top: -1.5rem;
 }
 .main {
   display: block;
@@ -111,7 +120,7 @@ Last modified:
   color: white;
 }
 .fa-clock-o {
-  color: #292C44 !important;
+  color: #222D32 !important;
   font-size: 0.8rem;
 }
 .fa-users {
@@ -120,7 +129,8 @@ Last modified:
 .fa-exclamation-triangle {
   color: #FF8C00;
 }
-.fa-shopping-cart {
+.fa-shopping-cart,
+.fa-circle {
   color: #008000;
 }
 .fa-user {

@@ -21,7 +21,8 @@ Last modified:
 // Color
 @blueMid:#4F80E1;
 @blueDark:#3A5EA6;
-@greyDark:#292C44;
+@greyBlue:#292C44;
+@greyDark:#222D32;
 @white:white;
 @cyan:#00CDCD;
 @darkorange:#FF8C00;
@@ -119,19 +120,34 @@ Last modified:
 .sideMenu {
   display:block;
   position: fixed;
-  top:8.2rem;
+  top:6.2rem;
   left:-1rem;
-  width:0rem;
-  overflow-x: hidden;
-  transition: 0.5s ease-in-out;
+  width:16rem;
+  background-color:@greyDark;
+  // overflow-x: hidden;
+  // transition: 0.5s ease-in-out;
+
+  .sideMenu__links {
+    margin-left: 1.5rem;
+    padding:0.5rem;
+    color: @white;
+    margin-top:@margin;
+  }
+  
+  .sideMenu__links--img {
+    width: (@width + 2rem);
+    margin-top:-(@margin + 0.5rem);
+  }
 }
+
+
 .main {
   display: block;
   position: relative;
   top:6.2rem;
 }
 
-
+// fa
 .fa {
   color:@white;
 }
@@ -145,7 +161,7 @@ Last modified:
 .fa-exclamation-triangle {
   color:@darkorange;
 }
-.fa-shopping-cart {
+.fa-shopping-cart, .fa-circle {
   color:@green;
 }
 .fa-user {
