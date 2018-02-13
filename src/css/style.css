@@ -99,6 +99,7 @@ Last modified:
   top: 6.2rem;
   left: -1rem;
   width: 14.5rem;
+  height: 100%;
   background-color: #222D32;
 }
 .sideMenu .sideMenu__links {
@@ -115,6 +116,10 @@ Last modified:
   display: block;
   position: relative;
   top: 6.2rem;
+}
+.input-group {
+  width: 11.5rem;
+  margin-left: 2rem;
 }
 .fa {
   color: white;
