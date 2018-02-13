@@ -102,15 +102,19 @@ Last modified:
   height: 100%;
   background-color: #222D32;
 }
-.sideMenu .sideMenu__links {
+.sideMenu__links {
   margin-left: 1.5rem;
   padding: 0.5rem;
   color: white;
   margin-top: 1rem;
 }
-.sideMenu .sideMenu__links--img {
+.sideMenu__links--img {
   width: 3.5rem;
   margin-top: -1.5rem;
+}
+.sideMenu__links .sideMenu__links--linkStyle {
+  list-style: none;
+  padding: 0.5rem;
 }
 .main {
   display: block;
@@ -147,6 +151,14 @@ Last modified:
   top: -0.6rem;
   left: -0.3rem;
   font-size: 0.6rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: white;
 }
 @media (min-width: 768px) {
   .header__menuToggle--icon {

@@ -128,17 +128,24 @@ Last modified:
   // overflow-x: hidden;
   // transition: 0.5s ease-in-out;
 
-  .sideMenu__links {
+  &__links {
     margin-left: 1.5rem;
     padding:0.5rem;
     color: @white;
     margin-top:@margin;
+
+    &--img {
+      width: (@width + 2rem);
+      margin-top:-(@margin + 0.5rem);
+    }
+
+    .sideMenu__links--linkStyle {
+      list-style: none;
+      padding:@padding;
+    }
   }
   
-  .sideMenu__links--img {
-    width: (@width + 2rem);
-    margin-top:-(@margin + 0.5rem);
-  }
+  
 }
 
 
@@ -179,6 +186,20 @@ Last modified:
   top:-0.6rem;
   left:-0.3rem;
   font-size:0.6rem;
+}
+
+// === === General === === //
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color:@white;
+
+  // &:active {
+  //   color:red;
+  // }
 }
 
 // Small devices (landscape phones, 576px and up)
