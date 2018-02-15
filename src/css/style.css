@@ -187,6 +187,14 @@ Last modified:
   .navSettings__menuLinks {
     left: 0.5rem!important;
   }
+  .sideMenu {
+    top: 3.1rem;
+    left: -1rem;
+    width: 17rem;
+  }
+  .input-group {
+    width: 14rem;
+  }
 }
 @media (min-width: 992px) {
   .header__menuToggle--icon {

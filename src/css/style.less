@@ -228,13 +228,22 @@ Last modified:
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-  .header__menuToggle--icon {
-    margin-left:0.5rem;
+    .header__menuToggle--icon {
+      margin-left:0.5rem;
+    }
+    
+    .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
+      left:0.5rem!important;
   }
-  
-  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
-    left:0.5rem!important;
-}
+
+  .sideMenu {
+    top:3.1rem;
+    left:-1rem;
+    width:17rem;
+  }
+  .input-group {
+    width:(@width + 12.5rem);
+  }
  }
 
 // Large devices (desktops, 992px and up)
