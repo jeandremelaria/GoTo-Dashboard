@@ -237,8 +237,7 @@ Last modified:
   }
 
   .sideMenu {
-    top:3.1rem;
-    left:-1rem;
+   top:3.1rem;
     width:17rem;
   }
   .input-group {
@@ -254,12 +253,25 @@ Last modified:
 
   .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
     margin:0 auto;
-}
+  }
+
+  .sideMenu {
+    width:21.7rem;
+  }
+  .input-group {
+    width:(@width + 17.3rem);
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  
   .header__menuToggle--icon {
     margin-left:2rem;
+  }
+  .sideMenu {
+    width:26rem;
+  }
+  .input-group {
+    width:(@width + 21.5rem);
   }
 }

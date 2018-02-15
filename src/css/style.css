@@ -189,7 +189,6 @@ Last modified:
   }
   .sideMenu {
     top: 3.1rem;
-    left: -1rem;
     width: 17rem;
   }
   .input-group {
@@ -207,9 +206,21 @@ Last modified:
   .navSettings__menuLinks {
     margin: 0 auto;
   }
+  .sideMenu {
+    width: 21.7rem;
+  }
+  .input-group {
+    width: 18.8rem;
+  }
 }
 @media (min-width: 1200px) {
   .header__menuToggle--icon {
     margin-left: 2rem;
+  }
+  .sideMenu {
+    width: 26rem;
+  }
+  .input-group {
+    width: 23rem;
   }
 }
