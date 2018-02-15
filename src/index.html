@@ -370,9 +370,22 @@ Last modified:
         </div>
     </main>
     <script>
+        document.getElementById('menuToggle').addEventListener('click', toggleSideMenu);
+
+        function toggleSideMenu() {
+            // 1. midi screen size dje device
+            // 2. wak si e div width ta 0 of mas ku 0
+            // 3. wak si e margin di e main ta 0 of mas ku 0
+            // 4. set e div width abase di screen size
+            // 5. set e margin di e main
+            var w = window.innerWidth; // midi e screensize
+
+            console.log(w);
+        }
+
         // document.getElementById('menuToggle').addEventListener('click', toggleSideMenu);
 
-        // function toggleSideMenu(e) {
+        // function toggleSideMenu() {
         //     var sideMenu = document.getElementById('sideMenu');
         //     var sideMenu__links = document.getElementById('sideMenu__links');
         //     var main = document.getElementById('main');
