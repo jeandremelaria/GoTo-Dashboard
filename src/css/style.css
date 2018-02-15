@@ -116,7 +116,22 @@ Last modified:
   list-style: none;
   padding: 0.5rem;
 }
-.sideMenu__links .sideMenu__links--linkStyle .sideMenu__links--icon {
+.sideMenu__links .sideMenu__links--linkStyle:hover {
+  border-right: 5px solid #4F80E1;
+  margin-right: -0.5rem;
+  margin-left: -1rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+.sideMenu__links .sideMenu__links--linkStyle:hover .sideMenu__links--icon,
+.sideMenu__links .sideMenu__links--linkStyle:hover a {
+  color: #4F80E1;
+}
+.sideMenu__links .sideMenu__links--linkStyle a {
+  text-decoration: none;
+  color: white;
+}
+.sideMenu__links .sideMenu__links--linkStyle a .sideMenu__links--icon {
   margin-right: 1rem;
   color: white;
 }
@@ -137,7 +152,7 @@ Last modified:
   font-size: 0.8rem;
 }
 .fa-users {
-  color: #00CDCD;
+  color: #18CDCA;
 }
 .fa-exclamation-triangle {
   color: #FF8C00;
@@ -160,9 +175,6 @@ Last modified:
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-a {
-  color: white;
 }
 @media (min-width: 768px) {
   .header__menuToggle--icon {
