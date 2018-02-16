@@ -320,6 +320,10 @@ Last modified:
             <div class="row">
                 <div id="sideMenu" class="sideMenu">
                     <ul id="sideMenu__links" class="sideMenu__links list-inline">
+                        <li>
+                            <i class="sideMenu__links--closeIcon fa fa-times-circle float-right"></i>
+                        </li>
+                        <li class="clearfix"></li>
                         <li class="list-inline-item">
                             <img class="sideMenu__links--img img-fluid rounded-circle img-thumbnail" src="img/user-profile-pic1.jpg" alt="User profile">
                         </li>
@@ -373,14 +377,82 @@ Last modified:
         document.getElementById('menuToggle').addEventListener('click', toggleSideMenu);
 
         function toggleSideMenu() {
+            var w = window.innerWidth;
+            var sideMenu = document.getElementById('sideMenu');
+            var showMenu = false;
+
+            // screensize up to 576px
+            if (w <= 576) {
+                console.log('Screensize = ' + w);
+
+
+                // if (sideMenu.style.width == 0) {
+                //     showMenu = true;
+                //     sideMenu.style.width = '14.5rem';
+                //     console.log('none');
+
+                // } else if (sideMenu.style.width == '14.5rem' && showMenu == true) {
+                //     sideMenu.style.width = '0';
+                //     console.log('block');
+
+                // } else {
+                //     sideMenu.style.width = '0';
+                // }
+            }
+
+            // if (w <= 576 && sideMenu.style.width == 0 && showMenu == false) {
+            //     showMenu = true;
+            //     sideMenu.style.width = '14.5rem';
+            //     console.log('show menu');
+            //     console.log(showMenu);
+            //     return;
+
+            // } else {
+            //     showMenu = false;
+            //     sideMenu.style.width = '0';
+            //     console.log('trueee');
+            //     return;
+            // }
+
+
+            // if (w <= 576 && sideMenu.style.width == 0) {
+            //     sideMenu.style.width = '14.5rem';
+
+            //     console.log(w);
+            //     console.log(typeof sideMenu.style.width);
+            // }
+
+            // if (w <= 576 && sideMenu.style.width == 0) {
+            //     sideMenu.style.width = '14.5rem';
+            //     console.log('1');
+
+            // }
+
+
+
+            // if (w <= 576 && sideMenu.style.width == '14.5rem') {
+            //     sideMenu.style.width = '0rem';
+            //     console.log('2');
+            // }
+
+
+
+
+
+
             // 1. midi screen size dje device
             // 2. wak si e div width ta 0 of mas ku 0
             // 3. wak si e margin di e main ta 0 of mas ku 0
             // 4. set e div width abase di screen size
             // 5. set e margin di e main
-            var w = window.innerWidth; // midi e screensize
 
-            console.log(w);
+
+            // var sideMenu = document.getElementById('sideMenu');
+            // if (sideMenu.style.display === 'none') {
+            //     sideMenu.style.display = 'block';
+            // } else {
+            //     sideMenu.style.display = 'none';
+            // }
         }
 
         // document.getElementById('menuToggle').addEventListener('click', toggleSideMenu);

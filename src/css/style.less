@@ -117,23 +117,35 @@ Last modified:
   float: right;
 }
 }
+
+
 .sideMenu {
   display:block;
   position: fixed;
   top:6.2rem;
   left:-1rem;
   width:14.5rem;
+  // width:0;
   height:100%;
   background-color:@greyDark;
-  // overflow-x: hidden;
-  // transition: 0.5s ease-in-out;
+  overflow-x: hidden;
+  transition: 0.5s ease-in-out;
   
   &__links {
     margin-left: 1.5rem;
     padding:0.5rem;
     color: @white;
     margin-top:@margin;
-    
+
+    .sideMenu__links--closeIcon {
+      margin-top:-@margin;
+      margin-bottom:@margin;
+      font-size: (@fontSize - 0.2rem);
+      
+      &:hover {
+        color:@blueMid;
+      }
+    }
 
     &--img {
       width: (@width + 2rem);
