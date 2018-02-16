@@ -42,89 +42,85 @@ Last modified:
 .header {
   background-color:@blueMid;
   height: @height;
-
-  .header__logo {
-    background-color:@blueDark;
-    padding-top:(@padding - 0.2rem);
-    height:@height;
-
-    &--style {
-      color:@white;
-    }
-  }
-  .header__menuToggle {
-    background-color:@blueMid;
-    width: (@width * 2);
-    height:@height;
-    padding-top:(@padding + 0.3rem);
-    &:hover {
+    .header__logo {
       background-color:@blueDark;
+      padding-top:(@padding - 0.2rem);
+      height:@height;
+
+      &--style {
+        color:@white;
+      }
     }
-    .header__menuToggle--icon {
-      padding-left:0.1rem;
+    .header__menuToggle {
+      background-color:@blueMid;
+      width: (@width * 2);
+      height:@height;
+      padding-top:(@padding + 0.3rem);
+      &:hover {
+        background-color:@blueDark;
+      }
+      .header__menuToggle--icon {
+        padding-left:0.1rem;
+      }
     }
+    .navEnvelope, .navNotifications, .navTask, .navUser, .navSettings {
+      background-color:@blueMid;
+      &:hover {
+        background-color:@blueDark;
+      }
+    }
+
+    .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
+      display: block;
+      position: relative;
+      width: (@width * 1.5);
+      top:0.8rem;
+      left:-0.1rem;
   }
-  .navEnvelope, .navNotifications, .navTask, .navUser, .navSettings {
-    background-color:@blueMid;
-    &:hover {
-      background-color:@blueDark;
-    }
+  .dropdown__menuItem--img {
+    width: (@width + 0.5rem);
+    margin-top:-0.3rem;
+    margin-left:-0.5rem;
+    margin-right:(@margin - 0.5rem);
+
+  }
+  .dropdown__menuItem--imgMessages {
+    width: (@width + 2.5rem);
+    margin-top:-0.3rem;
+    margin-left:-0.5rem;
+    margin-right:(@margin - 0.5rem);
+  }
+  .dropdown__menuItem--imgProfile {
+    width:(@width + 5rem);
+    margin-bottom: @margin;
+  }
+  .dropdown__menuItem--buttons {
+    margin: @margin 0 (@margin - 0.6rem) 0;
+  }
+  .dropdown__menuItem--text {
+    margin-right:4rem;
   }
 
-  .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
-    display: block;
+  .dropdown__menuItem--img {
+    width: (@width + 0.5rem);
+    margin-top:-0.3rem;
+    margin-left:-0.35rem;
+  }
+
+  .navSettings__div {
+    display:block;
     position: relative;
-    width: (@width * 1.5);
-    top:0.8rem;
-    left:-0.1rem;
+    top:0.6rem;
+    width:14.44rem;
+    margin-right: -1rem;
+    float: right;
+  }
 }
-.dropdown__menuItem--img {
-  width: (@width + 0.5rem);
-  margin-top:-0.3rem;
-  margin-left:-0.5rem;
-  margin-right:(@margin - 0.5rem);
-
-}
-.dropdown__menuItem--imgMessages {
-  width: (@width + 2.5rem);
-  margin-top:-0.3rem;
-  margin-left:-0.5rem;
-  margin-right:(@margin - 0.5rem);
-}
-.dropdown__menuItem--imgProfile {
-  width:(@width + 5rem);
-  margin-bottom: @margin;
-}
-.dropdown__menuItem--buttons {
-  margin: @margin 0 (@margin - 0.6rem) 0;
-}
-.dropdown__menuItem--text {
-  margin-right:4rem;
-}
-
-.dropdown__menuItem--img {
-  width: (@width + 0.5rem);
-  margin-top:-0.3rem;
-  margin-left:-0.35rem;
-}
-
-.navSettings__div {
-  display:block;
-  position: relative;
-  top:0.6rem;
-  width:14.44rem;
-  margin-right: -1rem;
-  float: right;
-}
-}
-
-
 .sideMenu {
   display:block;
   position: fixed;
   top:6.2rem;
   left:-1rem;
-  // width:14.5rem;
   width:0;
   height:100%;
   background-color:@greyDark;
@@ -151,7 +147,6 @@ Last modified:
       width: (@width + 2rem);
       margin-top:-(@margin + 0.5rem);
     }
-
     .sideMenu__links--linkStyle {
       list-style: none;
       padding:@padding;
@@ -176,26 +171,20 @@ Last modified:
           margin-right:@margin;
           color:@white;
         }
-      }
-     
-      
+      }    
     }
   }
-  
-  
 }
-
-
 .main {
   display: block;
   position: relative;
   top:6.2rem;
 }
-
 .input-group {
   width:(@width + 10rem);
   margin-left:2rem;
 }
+
 // fa
 .fa {
   color:@white;
@@ -216,7 +205,6 @@ Last modified:
 .fa-user {
   color:@red;
 }
-
 .badge {
   display:inline-block;
   position: relative;
@@ -232,25 +220,19 @@ Last modified:
   padding: 0;
 }
 
-
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
- 
- }
+@media (min-width: 576px) {  }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
     .header__menuToggle--icon {
       margin-left:0.5rem;
     }
-    
     .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
       left:0.5rem!important;
   }
-
   .sideMenu {
    top:3.1rem;
-    //width:17rem;
   }
    .input-group {
     width:(@width + 12.5rem);
@@ -262,11 +244,9 @@ Last modified:
   .header__menuToggle--icon {
     margin-left:1rem;
   }
-
   .navEnvelope__menuLinks, .navNotifications__menuLinks, .navTask__menuLinks, .navUser__menuLinks, .navSettings__menuLinks {
     margin:0 auto;
   }
-
   .input-group {
     width:(@width + 17.3rem);
   }
@@ -277,7 +257,6 @@ Last modified:
   .header__menuToggle--icon {
     margin-left:2rem;
   }
-  
   .input-group {
     width:(@width + 21.5rem);
   }
