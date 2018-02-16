@@ -1,6 +1,8 @@
+// Event Listener
 document.getElementById('menuToggle').addEventListener('click', openSideMenu);
 document.getElementById('closeIcon').addEventListener('click', closeSideMenu);
 
+// Functions
 function openSideMenu() {
     var w = window.innerWidth;
     var sideMenu = document.getElementById('sideMenu');
