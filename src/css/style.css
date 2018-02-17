@@ -158,6 +158,14 @@ Last modified:
 .sideMenu .accordion .accordion__link .accordion__link--color:hover {
   color: #4F80E1;
 }
+.sideMenu .accordion-toggle:after {
+  font-family: 'FontAwesome';
+  content: "\f078";
+  float: right;
+}
+.sideMenu .accordion-opened .accordion-toggle:after {
+  content: "\f054";
+}
 .mainContent {
   display: block;
   position: relative;
@@ -240,12 +248,4 @@ Last modified:
   .input-group {
     width: 23rem;
   }
-}
-.accordion-toggle:after {
-  font-family: 'FontAwesome';
-  content: "\f078";
-  float: right;
-}
-.accordion-opened .accordion-toggle:after {
-  content: "\f054";
 }

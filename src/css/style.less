@@ -197,6 +197,14 @@ Last modified:
     }
 
   }
+  .accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;
+  }
+  .accordion-opened .accordion-toggle:after {    
+    content: "\f054";    
+  }
 }
 .mainContent {
   display: block;
@@ -286,12 +294,4 @@ Last modified:
   .input-group {
     width:(@width + 21.5rem);
   }
-}
-.accordion-toggle:after {
-  font-family: 'FontAwesome';
-  content: "\f078";    
-  float: right;
-}
-.accordion-opened .accordion-toggle:after {    
-  content: "\f054";    
 }
