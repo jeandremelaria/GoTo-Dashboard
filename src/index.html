@@ -135,7 +135,7 @@ Last modified:
                     <ul class="navNotifications__menuLinks list-inline">
                         <li class="navNotifications__menuLinks--item list-inline-item">
                             <div class="dropdown dropleft">
-                                <a class="navNotifications__dropdown--link " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="navNotifications__dropdown--link " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i id="bell" class="navNotifications__menuLinks--itemIcon fa fa-bell-o" aria-hidden="true"></i><span class="badge badge-warning">9</span>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -198,7 +198,7 @@ Last modified:
                     <ul class="navTask__menuLinks list-inline">
                         <li class="navTask__menuLinks--item list-inline-item">
                             <div class="dropdown dropleft">
-                                <a class="navTask__dropdown--link " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="navTask__dropdown--link " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i id="flag" class="navTask__menuLinks--itemIcon fa fa-flag-o" aria-hidden="true"></i><span class="badge badge-danger">2</span>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -247,7 +247,7 @@ Last modified:
                     <ul class="navUser__menuLinks list-inline">
                         <li class="navUser__menuLinks--item list-inline-item">
                             <div class="dropdown dropleft">
-                                <a class="navUser__dropdown--link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="navUser__dropdown--link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img class="dropdown__menuItem--img img-fluid rounded-circle" src="img/user-profile-pic1.jpg" alt="User profile">
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -281,33 +281,33 @@ Last modified:
                     <ul class="navSettings__menuLinks list-inline">
                         <li class="navSettings__menuLinks--item list-inline-item">
                             <div class="dropdown dropleft">
-                                <a class="navSettings__dropdown--link " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="navSettings__dropdown--link " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="navSettngs__menuLinks--itemIcon fa fa-cogs" aria-hidden="true"></i>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <a class="dropdown-item text-center" href="#"><small>General Settings</small></a>
                                     <div class="dropdown-divider"></div>
 
-                                    <a class="dropdown-item text-left" href="#">
+                                    <div class="dropdown-item text-left">
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                            <label class="custom-control-label" for="customCheck1">Report panel usage</label>
+                                            <input type="checkbox" class="custom-control-input">
+                                            <label class="custom-control-label">Report panel usage</label>
                                         </div>
-                                    </a>
+                                    </div>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item text-left" href="#">
+                                    <div class="dropdown-item text-left">
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
-                                            <label class="custom-control-label" for="customCheck1">Allow mail redirect</label>
+                                            <input type="checkbox" class="custom-control-input" checked>
+                                            <label class="custom-control-label">Allow mail redirect</label>
                                         </div>
-                                    </a>
+                                    </div>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item text-left" href="#">
+                                    <div class="dropdown-item text-left">
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
-                                            <label class="custom-control-label" for="customCheck1">Expose author name in posts</label>
+                                            <input type="checkbox" class="custom-control-input" checked>
+                                            <label class="custom-control-label">Expose author name in posts</label>
                                         </div>
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -315,11 +315,12 @@ Last modified:
                     </ul>
                 </div>
                 <!-- /Settings -->
+            </div>
         </header>
         <aside class="container-fluid">
             <div class="row">
                 <div id="sideMenu" class="sideMenu">
-                    <ul id="sideMenu__links" class="sideMenu__links list-inline">
+                    <ul class="sideMenu__links list-inline">
                         <li id="closeIcon">
                             <i class="sideMenu__links--closeIcon fa fa-times-circle float-right"></i>
                         </li>
@@ -327,7 +328,8 @@ Last modified:
                         <li class="list-inline-item">
                             <img class="sideMenu__links--img img-fluid rounded-circle img-thumbnail" src="img/user-profile-pic1.jpg" alt="User profile">
                         </li>
-                        <li class="list-inline-item">Carren Schaden<br><small><i class="fa fa-circle"></i> &nbsp;Online</li></small>
+                        <li class="list-inline-item">Carren Schaden<br>
+                            <small><i class="fa fa-circle"></i> &nbsp;Online</small></li>
                     </ul>
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search..." aria-label="Search">
@@ -335,7 +337,7 @@ Last modified:
                             <button class="btn btn-outline-secondary" type="button"><i class="fa fa-search"></i></button>
                         </div>
                     </div>
-                    <ul id="sideMenu__links" class="sideMenu__links">
+                    <ul class="sideMenu__links">
                         <li class="sideMenu__links--linkStyle">
                             <a href="#">
                                 <i class="sideMenu__links--icon fa fa-tachometer"></i>Dashboard
@@ -444,13 +446,18 @@ Last modified:
             <!-- /Modal sign out-->
         </aside>
 
-        <div id="mainContent" class="mainContent">
-            <h1>mainn</h1>
+        <div id="mainContent" class="mainContent container-fluid">
+            <div class="row" style="background-color:purple">
+                <div class="col10" style="background-color:red ">
+                    <h1>main</h1>
+                </div>
+            </div>
         </div>
+
     </main>
     <script>
     </script>
-    <script src="js/sideMenu.js"></script>
+    <script src="js/sideMenu.js "></script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="../node_modules/jquery/dist/jquery.slim.min.js "></script>
@@ -458,4 +465,4 @@ Last modified:
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
 </body>
 
-</html
+</html>
