@@ -239,6 +239,9 @@ body {
   .input-group {
     width: 14rem;
   }
+  .dashboard {
+    margin-top: -6.2rem !important;
+  }
 }
 @media (min-width: 992px) {
   .header__menuToggle--icon {
