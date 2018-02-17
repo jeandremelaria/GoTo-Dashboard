@@ -180,7 +180,12 @@ Last modified:
   display: block;
   position: relative;
   margin-left: 1rem;
+  margin-top: 0.2rem;
   padding: 0.5rem;
+}
+.mainContent .dashboard .breadcrumb {
+  margin: 0.5rem;
+  background-color: #222D32;
 }
 .fa {
   color: white;
