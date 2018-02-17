@@ -173,6 +173,15 @@ Last modified:
   width: 11.5rem;
   margin-left: 2rem;
 }
+.mainContent .dashboard {
+  margin-top: -3.2rem;
+}
+.mainContent .dashboard .dashboard_header {
+  display: block;
+  position: relative;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
 .fa {
   color: white;
 }
