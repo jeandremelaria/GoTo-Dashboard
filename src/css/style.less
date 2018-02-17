@@ -208,6 +208,7 @@ Last modified:
   position: relative;
   top:6.2rem;
   transition-duration: 1.5s;
+ 
 
 }
 .input-group {
@@ -225,12 +226,22 @@ Last modified:
       margin-left:@margin;
       margin-top:0.2rem;
       padding:@padding;
-
     }
     .breadcrumb {
       margin:(@margin - 0.5rem);
       background-color:@greyDark;
     }
+   
+  }
+
+  .info-box {
+    display: block;
+    min-height: 90px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    margin-bottom: 15px;
   }
 }
 
@@ -270,6 +281,7 @@ Last modified:
 }
 body {
   overflow-x: hidden;
+  background-color:lighten(@greyLight, 40%);
 }
 
 // Small devices (landscape phones, 576px and up)
