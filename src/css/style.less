@@ -23,6 +23,7 @@ Last modified:
 @blueDark:#3A5EA6;
 @greyBlue:#292C44;
 @greyDark:#222D32;
+@greyLight: grey;
 @white:white;
 @cyan:#18CDCA;
 @darkorange:#FF8C00;
@@ -174,6 +175,28 @@ Last modified:
       }    
     }
   }
+
+  .accordion {
+    .accordion__link {
+      text-decoration: none;
+      margin-left:(@margin + 3rem);
+
+      &:hover {
+        color:@green;
+
+      }
+
+      .accordion__link--color {
+        color:@greyLight;
+
+        &:hover {
+          color:@blueMid;
+  
+        }
+      }
+    }
+
+  }
 }
 .mainContent {
   display: block;
@@ -186,6 +209,7 @@ Last modified:
   width:(@width + 10rem);
   margin-left:2rem;
 }
+
 
 // fa
 .fa {
@@ -262,4 +286,12 @@ Last modified:
   .input-group {
     width:(@width + 21.5rem);
   }
+}
+.accordion-toggle:after {
+  font-family: 'FontAwesome';
+  content: "\f078";    
+  float: right;
+}
+.accordion-opened .accordion-toggle:after {    
+  content: "\f054";    
 }

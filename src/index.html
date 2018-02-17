@@ -351,11 +351,46 @@ Last modified:
                             </a>
                             <span class="badge badge-danger">3</span>
                         </li>
-                        <li class="sideMenu__links--linkStyle">
-                            <a href="#">
+                        <li id="accordion" class="sideMenu__links--linkStyle accordion">
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                        <i class=" sideMenu__links--icon fa fa-envelope"></i>Mailbox
+                                    </a>
+                                    <span class="badge badge-primary">17</span>
+                                </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <ul class="accordion accordion-inner">
+                                        <li class="accordion__link">
+                                            <a class="accordion__link--color" href="#">Inbox</a>
+                                        </li>
+                                        <li class="accordion__link">
+                                            <a class="accordion__link--color" href="#">Read</a>
+                                        </li>
+                                        <li class="accordion__link">
+                                            <a class="accordion__link--color" href="#">Compose</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <a href="#">
                                 <i class=" sideMenu__links--icon fa fa-envelope"></i>Mailbox</a>
-                            <span class="badge badge-primary">17</span>
+                            <span class="badge badge-primary">17</span> -->
                         </li>
+
+                        <!-- <div class="accordion" id="accordion2">
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                Collapsible Group Item #1
+                                </a>
+                                    </div>
+                                    <div id="collapseOne" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            Anim pariatur cliche...
+                                        </div>
+                                    </div>
+                                </div> -->
 
                         <li class="sideMenu__links--linkStyle">
                             <a href="#">
@@ -379,6 +414,8 @@ Last modified:
             <h1>mainn</h1>
         </div>
     </main>
+    <script>
+    </script>
     <script src="js/sideMenu.js"></script>
 
     <!-- Bootstrap core JavaScript -->
