@@ -363,6 +363,7 @@ Last modified:
                                     <ul class="accordion accordion-inner">
                                         <li class="accordion__link">
                                             <a class="accordion__link--color" href="#">Inbox</a>
+                                            <span class="badge badge-primary">17</span>
                                         </li>
                                         <li class="accordion__link">
                                             <a class="accordion__link--color" href="#">Read</a>
@@ -392,15 +393,24 @@ Last modified:
                                     </ul>
                                 </div>
                             </div>
-
-                            <!-- <a href="#">
-                                <i class="sideMenu__links--icon fa fa-comment"></i>Chat</a>
-                            <span class="badge badge-success">1</span> -->
                         </li>
-                        <li class="sideMenu__links--linkStyle">
-                            <a href="#">
-                                <i class="sideMenu__links--icon fa fa-list"></i>To Do List</a>
-                            <span class="badge badge-info">5</span>
+                        <li id="accordion2" class="sideMenu__links--linkStyle accordion">
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                        <i class=" sideMenu__links--icon fa fa-comment"></i>To Do List
+                                    </a>
+                                    <span class="badge badge-info">1</span>
+                                </div>
+                                <div id="collapseThree" class="accordion-body collapse">
+                                    <ul class="accordion accordion-inner">
+                                        <li class="accordion__link">
+                                            <a class="accordion__link--color" href="#">
+                                                 Analyze business trends</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                         <li class="sideMenu__links--linkStyle">
                             <a href="#">
@@ -415,26 +425,6 @@ Last modified:
         </div>
     </main>
     <script>
-        document.getElementsByClassName('accordion').addEvenListener('click', showAccordion);
-        document.getElementsByClassName('accordion').addEvenListener('click', hideAccordion);
-
-        function showAccordion(e) {
-            document.getElementsByClassName('accordion-heading').addClass('accordion-opened');
-        }
-
-        function hideAccordion(e) {
-            document.getElementsByClassName('accordion-heading').removeClass('accordion-opened');
-        }
-
-        // $(document).on('show', '.accordion', function(e) {
-        //     //$('.accordion-heading i').toggleClass(' ');
-        //     $(e.target).prev('.accordion-heading').addClass('accordion-opened');
-        // });
-
-        // $(document).on('hide', '.accordion', function(e) {
-        //     $(this).find('.accordion-heading').not($(e.target)).removeClass('accordion-opened');
-        //     //$('.accordion-heading i').toggleClass('fa-chevron-right fa-chevron-down');
-        // });
     </script>
     <script src="js/sideMenu.js"></script>
 
