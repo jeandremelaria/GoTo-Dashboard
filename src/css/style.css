@@ -187,14 +187,43 @@ Last modified:
   margin: 0.5rem;
   background-color: #222D32;
 }
-.mainContent .info-box {
+.mainContent .dashboardBox {
   display: block;
-  min-height: 90px;
-  background: #fff;
-  width: 100%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
-  margin-bottom: 15px;
+  position: relative;
+  height: 7.5rem;
+  width: 18.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: -0.02rem;
+}
+.mainContent .dashboardBox .dashboard__footer {
+  width: 16.1rem;
+  height: 1.8rem;
+  margin-left: -0.5rem;
+  margin-bottom: -0.5rem;
+}
+.mainContent .dashboardBox__newOrders {
+  background-color: #18CDCA;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 5px;
+}
+.mainContent .dashboardBox__newOrders .dashboard__icon {
+  font-size: 4rem;
+  display: inline-block;
+  position: relative;
+}
+.mainContent .dashboardBox__newOrders .dashboard__footer {
+  background-color: #139f9d;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.mainContent .dashboardBox__newOrders .dashboard__footer a {
+  color: white;
+}
+.mainContent .dashboardBox__bounceRate {
+  background-color: #00a65a;
+  padding: 0.5rem;
 }
 .fa {
   color: white;
@@ -227,6 +256,20 @@ Last modified:
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 body {
   overflow-x: hidden;

@@ -27,7 +27,8 @@ Last modified:
 @white:white;
 @cyan:#18CDCA;
 @darkorange:#FF8C00;
-@green:#008000;
+@greenDark:#008000;
+@greenLight:#00a65a;
 @red:#FF0000;
 
 // Font
@@ -182,7 +183,7 @@ Last modified:
       margin-left:(@margin + 3rem);
 
       &:hover {
-        color:@green;
+        color:@greenDark;
 
       }
 
@@ -232,17 +233,55 @@ Last modified:
       background-color:@greyDark;
     }
    
+   
   }
-
-  .info-box {
+  .dashboardBox {
     display: block;
-    min-height: 90px;
-    background: #fff;
-    width: 100%;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    border-radius: 2px;
-    margin-bottom: 15px;
+    position: relative;
+    height:(@height + 4.4rem);
+    width:(@width + 17.25rem);
+    margin-top:(@margin + 0.5rem);
+    margin-bottom:(@margin + 0.5rem);
+    margin-left:-0.02rem;
+    
+    
+    .dashboard__footer {
+      width:(@width + 14.6rem);
+      height:(@height - 1.3rem);
+      margin-left:-0.5rem;
+      margin-bottom: -0.5rem;
+    
+    }
+    
+   }
+   .dashboardBox__newOrders {
+      background-color: @cyan;
+      padding: @padding;
+      color:@white;
+      border-radius: 5px;
+
+      .dashboard__icon {
+        font-size: 4rem;
+        display:inline-block;
+        position: relative;
+      }
+
+    .dashboard__footer {
+      background-color:darken(@cyan, 10%);
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      
+      a{
+        color:@white;
+      }
+    }
   }
+  .dashboardBox__bounceRate {
+    background-color: @greenLight;
+    padding: @padding;
+  }
+ 
+
 }
 
 // fa
@@ -260,7 +299,7 @@ Last modified:
   color:@darkorange;
 }
 .fa-shopping-cart, .fa-circle {
-  color:@green;
+  color:@greenDark;
 }
 .fa-user {
   color:@red;
@@ -279,6 +318,10 @@ Last modified:
   margin: 0;
   padding: 0;
 }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
 body {
   overflow-x: hidden;
   background-color:lighten(@greyLight, 40%);
