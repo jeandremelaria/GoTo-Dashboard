@@ -220,7 +220,7 @@ Last modified:
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-left: 0.45rem;
-  width: 16rem;
+  width: 16.1rem;
 }
 .mainContent .dashboardBox__newOrders .dashboard__footer:hover {
   background-color: #084443;
@@ -235,7 +235,7 @@ Last modified:
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-left: 0.45rem;
-  width: 16rem;
+  width: 16.1rem;
 }
 .mainContent .dashboardBox__bounceRate .dashboard__footer:hover {
   background-color: #004023;
@@ -250,10 +250,25 @@ Last modified:
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-left: 0.45rem;
-  width: 16rem;
+  width: 16.1rem;
 }
 .mainContent .dashboardBox__userRegistration .dashboard__footer:hover {
   background-color: #995400;
+}
+.mainContent .dashboardBox__visitors {
+  background-color: #ff3333;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.mainContent .dashboardBox__visitors .dashboard__footer {
+  background-color: #ff0f0f;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 0.45rem;
+  width: 16rem;
+}
+.mainContent .dashboardBox__visitors .dashboard__footer:hover {
+  background-color: #990000;
 }
 .fa {
   color: white;
