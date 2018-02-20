@@ -230,10 +230,8 @@ Last modified:
     }
     .breadcrumb {
       margin:(@margin - 0.5rem);
-      background-color:@greyDark;
+      background-color:lighten(@greyLight, 30%);
     }
-   
-   
   }
   .dashboardBox {
     display: block;
@@ -243,42 +241,57 @@ Last modified:
     margin-top:(@margin + 0.5rem);
     margin-bottom:(@margin + 0.5rem);
     margin-left:-0.02rem;
-    
+    color:@white;
+
+    .dashboard__icon {
+      font-size: 4rem;
+      display:inline-block;
+      position: relative;
+    }
     
     .dashboard__footer {
       width:(@width + 14.6rem);
       height:(@height - 1.3rem);
-      // margin-left:0.5rem;
-      margin-bottom: -0.5rem;
-    
+      margin-bottom: -0.5rem; 
+    }
+    a {
+      color:@white;
     }
     
    }
    .dashboardBox__newOrders {
       background-color: @cyan;
       padding: @padding;
-      color:@white;
       border-radius: 5px;
-
-      .dashboard__icon {
-        font-size: 4rem;
-        display:inline-block;
-        position: relative;
-      }
 
     .dashboard__footer {
       background-color:darken(@cyan, 10%);
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
-      
-      a{
-        color:@white;
-      }
+      margin-left:0.45rem;
+      width: 16rem;
+
+      &:hover {
+        background-color:darken(@cyan, 30%);
+      }     
     }
   }
   .dashboardBox__bounceRate {
     background-color: @greenLight;
     padding: @padding;
+    border-radius: 5px;
+
+    .dashboard__footer {
+      background-color:darken(@greenLight, 10%);
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-left:0.45rem;
+      width: 16rem;
+
+      &:hover {
+        background-color:darken(@greenLight, 20%);
+      }     
+    }
   }
  
 
