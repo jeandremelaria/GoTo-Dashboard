@@ -240,6 +240,21 @@ Last modified:
 .mainContent .dashboardBox__bounceRate .dashboard__footer:hover {
   background-color: #004023;
 }
+.mainContent .dashboardBox__userRegistration {
+  background-color: #FF8C00;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.mainContent .dashboardBox__userRegistration .dashboard__footer {
+  background-color: #cc7000;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 0.45rem;
+  width: 16rem;
+}
+.mainContent .dashboardBox__userRegistration .dashboard__footer:hover {
+  background-color: #995400;
+}
 .fa {
   color: white;
 }
@@ -310,6 +325,9 @@ body {
   .dashboard {
     margin-top: -6.2rem !important;
   }
+  .dashboard__footer {
+    width: 22.15rem !important;
+  }
 }
 @media (min-width: 992px) {
   .header__menuToggle--icon {
@@ -324,6 +342,9 @@ body {
   }
   .input-group {
     width: 18.8rem;
+  }
+  .dashboard__footer {
+    width: 29.05rem !important;
   }
 }
 @media (min-width: 1200px) {

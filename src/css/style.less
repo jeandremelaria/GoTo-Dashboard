@@ -293,6 +293,24 @@ Last modified:
       }     
     }
   }
+
+  .dashboardBox__userRegistration {
+    background-color: @darkorange;
+    padding: @padding;
+    border-radius: 5px;
+
+    .dashboard__footer {
+      background-color:darken(@darkorange, 10%);
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-left:0.45rem;
+      width: 16rem;
+
+      &:hover {
+        background-color:darken(@darkorange, 20%);
+      }     
+    }
+  }
  
 
 }
@@ -360,6 +378,9 @@ body {
   .dashboard {
     margin-top:-(@margin + 5.2rem)!important;
   }
+  .dashboard__footer {
+    width:(@width + 20.65rem)!important;
+  }
 }
   
 
@@ -373,6 +394,9 @@ body {
   }
   .input-group {
     width:(@width + 17.3rem);
+  }
+  .dashboard__footer {
+    width:(@width + 27.55rem)!important;
   }
 }
 
