@@ -281,24 +281,36 @@ Last modified:
       background-color:darken(@greenLight, 20%);
     }     
   }
-
   .dashboardBox__userRegistration {
     background-color: @darkorange;
-    padding: @padding;
-    border-radius: 5px;
-
-    .dashboard__footer {
-      background-color:darken(@darkorange, 10%);
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-      margin-left:0.45rem;
-      width: 16.1rem;
-
-      &:hover {
-        background-color:darken(@darkorange, 20%);
-      }     
-    }
+    .dashboardBox__body;
+  
   }
+  .dashboardBox__userRegistrationFooter {
+    background-color:darken(@darkorange, 10%);
+    .dashboardBox__footer;
+
+    &:hover {
+      background-color:darken(@darkorange, 20%);
+    }     
+  }
+  // .dashboardBox__userRegistration {
+  //   background-color: @darkorange;
+  //   padding: @padding;
+  //   border-radius: 5px;
+
+  //   .dashboard__footer {
+  //     background-color:darken(@darkorange, 10%);
+  //     border-bottom-left-radius: 5px;
+  //     border-bottom-right-radius: 5px;
+  //     margin-left:0.45rem;
+  //     width: 16.1rem;
+
+  //     &:hover {
+  //       background-color:darken(@darkorange, 20%);
+  //     }     
+  //   }
+  // }
   .dashboardBox__visitors {
     background-color: lighten(@red, 10%);
     padding: @padding;

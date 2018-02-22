@@ -242,16 +242,18 @@ Last modified:
 .mainContent .dashboardBox__userRegistration {
   background-color: #FF8C00;
   padding: 0.5rem;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 6rem;
 }
-.mainContent .dashboardBox__userRegistration .dashboard__footer {
+.mainContent .dashboardBox__userRegistrationFooter {
   background-color: #cc7000;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin-left: 0.45rem;
-  width: 16.1rem;
+  height: 2rem;
+  padding: 0.2rem;
 }
-.mainContent .dashboardBox__userRegistration .dashboard__footer:hover {
+.mainContent .dashboardBox__userRegistrationFooter:hover {
   background-color: #995400;
 }
 .mainContent .dashboardBox__visitors {
