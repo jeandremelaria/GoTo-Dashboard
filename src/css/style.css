@@ -225,16 +225,18 @@ Last modified:
 .mainContent .dashboardBox__bounceRate {
   background-color: #00a65a;
   padding: 0.5rem;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 6rem;
 }
-.mainContent .dashboardBox__bounceRate .dashboard__footer {
+.mainContent .dashboardBox__bounceRateFooter {
   background-color: #00733e;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin-left: 0.45rem;
-  width: 16.1rem;
+  height: 2rem;
+  padding: 0.2rem;
 }
-.mainContent .dashboardBox__bounceRate .dashboard__footer:hover {
+.mainContent .dashboardBox__bounceRateFooter:hover {
   background-color: #004023;
 }
 .mainContent .dashboardBox__userRegistration {
@@ -266,6 +268,18 @@ Last modified:
 }
 .mainContent .dashboardBox__visitors .dashboard__footer:hover {
   background-color: #990000;
+}
+.dashboardBox__body {
+  padding: 0.5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 6rem;
+}
+.dashboardBox__footer {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 2rem;
+  padding: 0.2rem;
 }
 .fa {
   color: white;

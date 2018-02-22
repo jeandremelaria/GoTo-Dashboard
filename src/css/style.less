@@ -255,21 +255,14 @@ Last modified:
     a {
       color:@white;
     }
-    
    }
    .dashboardBox__newOrders {
       background-color: @cyan;
-      padding: @padding;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      height:(@height + 2.9rem);
+      .dashboardBox__body;
   }
   .dashboardBox__newOrdersFooter {
     background-color:darken(@cyan, 10%);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    height:(@height - 1.1rem);
-    padding:(@padding - 0.3rem);
+    .dashboardBox__footer;
 
     &:hover {
       background-color:darken(@cyan, 30%);
@@ -277,20 +270,16 @@ Last modified:
   }
   .dashboardBox__bounceRate {
     background-color: @greenLight;
-    padding: @padding;
-    border-radius: 5px;
+    .dashboardBox__body;
+  
+  }
+  .dashboardBox__bounceRateFooter {
+    background-color:darken(@greenLight, 10%);
+    .dashboardBox__footer;
 
-    .dashboard__footer {
-      background-color:darken(@greenLight, 10%);
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-      margin-left:0.45rem;
-      width: 16.1rem;
-
-      &:hover {
-        background-color:darken(@greenLight, 20%);
-      }     
-    }
+    &:hover {
+      background-color:darken(@greenLight, 20%);
+    }     
   }
 
   .dashboardBox__userRegistration {
@@ -327,8 +316,20 @@ Last modified:
       }     
     }
   }
- 
 
+}
+
+.dashboardBox__body {
+  padding: @padding;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height:(@height + 2.9rem);
+}
+.dashboardBox__footer {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height:(@height - 1.1rem);
+  padding:(@padding - 0.3rem);
 }
 
 // fa
