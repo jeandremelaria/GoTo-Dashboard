@@ -31,12 +31,14 @@ Last modified:
 @greenLight:#00a65a;
 @red:#FF0000;
 
-// Font
-@fontSize:2rem;
 @width:1.5rem;
 @height:3.1rem;
 @padding:0.5rem;
 @margin:1rem;
+
+// Font
+@fontSize:2rem;
+
 
 // === === Functions === === //
 
@@ -234,10 +236,6 @@ Last modified:
     }
   }
   .dashboardBox {
-    display: block;
-    position: relative;
-    height:(@height + 4.4rem);
-    width:(@width + 17.25rem);
     margin-top:(@margin + 0.5rem);
     margin-bottom:(@margin + 0.5rem);
     margin-left:-0.02rem;
@@ -250,9 +248,9 @@ Last modified:
     }
     
     .dashboard__footer {
-      width:(@width + 14.6rem);
-      height:(@height - 1.3rem);
-      margin-bottom: -0.5rem; 
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+     
     }
     a {
       color:@white;
@@ -262,19 +260,20 @@ Last modified:
    .dashboardBox__newOrders {
       background-color: @cyan;
       padding: @padding;
-      border-radius: 5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      height:(@height + 2.9rem);
+  }
+  .dashboardBox__newOrdersFooter {
+    background-color:darken(@cyan, 10%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height:(@height - 1.1rem);
+    padding:(@padding - 0.3rem);
 
-    .dashboard__footer {
-      background-color:darken(@cyan, 10%);
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-      margin-left:0.45rem;
-      width: 16.1rem;
-
-      &:hover {
-        background-color:darken(@cyan, 30%);
-      }     
-    }
+    &:hover {
+      background-color:darken(@cyan, 30%);
+    }     
   }
   .dashboardBox__bounceRate {
     background-color: @greenLight;
@@ -376,10 +375,10 @@ body {
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  }
+@media only screen and (min-width: 576px) and (max-width:767){  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media only screen and (min-width: 768px) and (max-width:991) { 
     .header__menuToggle--icon {
       margin-left:0.5rem;
     }
