@@ -259,16 +259,18 @@ Last modified:
 .mainContent .dashboardBox__visitors {
   background-color: #ff3333;
   padding: 0.5rem;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 6rem;
 }
-.mainContent .dashboardBox__visitors .dashboard__footer {
+.mainContent .dashboardBox__visitorsFooter {
   background-color: #ff0f0f;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin-left: 0.45rem;
-  width: 16rem;
+  height: 2rem;
+  padding: 0.2rem;
 }
-.mainContent .dashboardBox__visitors .dashboard__footer:hover {
+.mainContent .dashboardBox__visitorsFooter:hover {
   background-color: #990000;
 }
 .dashboardBox__body {
