@@ -35,7 +35,7 @@ Last modified:
     <link href="css/style.css" rel="stylesheet" title="style" type="text/css">
 
     <!-- Chart js JavaScript -->
-    <script type="text/javascript" src="../node_modules/chart.js/dist/Chart.min.js"></script>
+    <script src="../node_modules/chart.js/dist/Chart.min.js"></script>
 </head>
 
 <body>
@@ -432,11 +432,11 @@ Last modified:
 <span aria-hidden="true">&times;</span>
 </button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body col-6">
                             You are about to sign out. Are you sure u want to sign out?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" info="btn btn-success">Yes</button>
+                            <button type="button" class="btn btn-success">Yes</button>
                             <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
                         </div>
                     </div>
@@ -446,184 +446,185 @@ Last modified:
         </aside>
 
         <div id="mainContent" class="mainContent container-fluid">
-            <!-- Dashboard -->
-            <div class="dashboard row">
-                <div class="col-6 col-md-8">
-                    <h2 class="dashboard_header">Dashboard</h2>
-                </div>
-                <div class="col-6 col-md-4">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                            <i class="sideMenu__links--icon fa fa-tachometer"></i>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-                    </ol>
-                </div>
-            </div>
-            <div class="row">
-                <!-- DashboardBox -->
-                <div class="dashboardBox col-6 col-md-3">
-                    <div class="dashboardBox__newOrders">
-                        <div class="dashboard__inner">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <h3><strong>150</strong></h3>
-                                </li>
-                                <li class="list-inline-item float-right">
-                                    <i class="dashboard__icon fa fa-shopping-bag"></i>
-                                </li>
-                                <li>
-                                    New orders
-                                </li>
-                            </ul>
-
-                        </div>
+            <div id="dashboard">
+                <!-- Dashboard -->
+                <div class="dashboard row">
+                    <div class="col-6 col-md-8">
+                        <h2 class="dashboard_header">Dashboard</h2>
                     </div>
+                    <div class="col-6 col-md-4">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <i class="sideMenu__links--icon fa fa-tachometer"></i>
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- DashboardBox -->
+                    <div class="dashboardBox col-6 col-md-3">
+                        <div class="dashboardBox__newOrders">
+                            <div class="dashboard__inner">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <h3><strong>150</strong></h3>
+                                    </li>
+                                    <li class="list-inline-item float-right">
+                                        <i class="dashboard__icon fa fa-shopping-bag"></i>
+                                    </li>
+                                    <li>
+                                        New orders
+                                    </li>
+                                </ul>
 
-                    <!-- DashboardBox footer -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="dashboardBox__newOrdersFooter text-center">
-                                <a href="#">More info
+                            </div>
+                        </div>
+
+                        <!-- DashboardBox footer -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="dashboardBox__newOrdersFooter text-center">
+                                    <a href="#">More info
                                     <i class="fa fa-arrow-circle-right"></i>
                                     </a>
+                                </div>
                             </div>
                         </div>
+                        <!-- /DashboardBox footer -->
                     </div>
-                    <!-- /DashboardBox footer -->
-                </div>
-                <!-- /DashboardBox -->
+                    <!-- /DashboardBox -->
 
-                <!-- DashboardBox -->
-                <div class="dashboardBox col-6 col-md-3">
-                    <div class="dashboardBox__bounceRate">
-                        <div class="dashboard__inner">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <h3><strong>53%</strong></h3>
-                                </li>
-                                <li class="list-inline-item float-right">
-                                    <i class="dashboard__icon fa fa-bar-chart-o"></i>
-                                </li>
-                                <li>
-                                    Bounce Rate
-                                </li>
-                            </ul>
+                    <!-- DashboardBox -->
+                    <div class="dashboardBox col-6 col-md-3">
+                        <div class="dashboardBox__bounceRate">
+                            <div class="dashboard__inner">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <h3><strong>53%</strong></h3>
+                                    </li>
+                                    <li class="list-inline-item float-right">
+                                        <i class="dashboard__icon fa fa-bar-chart-o"></i>
+                                    </li>
+                                    <li>
+                                        Bounce Rate
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- DashboardBox footer -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="dashboardBox__bounceRateFooter text-center">
-                                <a href="#">More info
+                        <!-- DashboardBox footer -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="dashboardBox__bounceRateFooter text-center">
+                                    <a href="#">More info
                                         <i class="fa fa-arrow-circle-right"></i>
                                     </a>
+                                </div>
                             </div>
                         </div>
+                        <!-- /DashboardBox footer -->
                     </div>
-                    <!-- /DashboardBox footer -->
-                </div>
-                <!-- /DashboardBox -->
+                    <!-- /DashboardBox -->
 
 
-                <!-- DashboardBox -->
-                <div class="dashboardBox col-6 col-md-3">
-                    <div class="dashboardBox__userRegistration">
-                        <div class="dashboard__inner">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <h3><strong>44</strong></h3>
-                                </li>
-                                <li class="list-inline-item float-right">
-                                    <i class="dashboard__icon fa fa-user-plus"></i>
-                                </li>
-                                <li>
-                                    Bounce Rate
-                                </li>
-                            </ul>
+                    <!-- DashboardBox -->
+                    <div class="dashboardBox col-6 col-md-3">
+                        <div class="dashboardBox__userRegistration">
+                            <div class="dashboard__inner">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <h3><strong>44</strong></h3>
+                                    </li>
+                                    <li class="list-inline-item float-right">
+                                        <i class="dashboard__icon fa fa-user-plus"></i>
+                                    </li>
+                                    <li>
+                                        Bounce Rate
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- DashboardBox footer -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="dashboardBox__userRegistrationFooter text-center">
-                                <a href="#">More info
+                        <!-- DashboardBox footer -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="dashboardBox__userRegistrationFooter text-center">
+                                    <a href="#">More info
                                             <i class="fa fa-arrow-circle-right"></i>
                                         </a>
+                                </div>
                             </div>
                         </div>
+                        <!-- /DashboardBox footer -->
                     </div>
-                    <!-- /DashboardBox footer -->
-                </div>
-                <!-- /DashboardBox -->
+                    <!-- /DashboardBox -->
 
-                <!-- DashboardBox -->
-                <div class="dashboardBox col-6 col-md-3">
-                    <div class="dashboardBox__visitors">
-                        <div class="dashboard__inner">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <h3><strong>80</strong></h3>
-                                </li>
-                                <li class="list-inline-item float-right">
-                                    <i class="dashboard__icon fa fa-pie-chart"></i>
-                                </li>
-                                <li>
-                                    Unique Visitors
-                                </li>
-                            </ul>
+                    <!-- DashboardBox -->
+                    <div class="dashboardBox col-6 col-md-3">
+                        <div class="dashboardBox__visitors">
+                            <div class="dashboard__inner">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <h3><strong>80</strong></h3>
+                                    </li>
+                                    <li class="list-inline-item float-right">
+                                        <i class="dashboard__icon fa fa-pie-chart"></i>
+                                    </li>
+                                    <li>
+                                        Unique Visitors
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- DashboardBox footer -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="dashboardBox__visitorsFooter text-center">
-                                <a href="#">More info
+                        <!-- DashboardBox footer -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="dashboardBox__visitorsFooter text-center">
+                                    <a href="#">More info
                                          <i class="fa fa-arrow-circle-right"></i>
                                     </a>
+                                </div>
                             </div>
                         </div>
+                        <!-- /DashboardBox footer -->
                     </div>
-                    <!-- /DashboardBox footer -->
+                    <!-- /DashboardBox -->
                 </div>
-                <!-- /DashboardBox -->
+
+                <!-- Chart -->
+                <div class="row">
+                    <div class="chart col-12 col-md-6">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <div class=" chart col-12 col-md-6">
+                        <canvas id="myChart1"></canvas>
+                    </div>
+                </div>
+                <!-- /Chart -->
+
+
             </div>
-
-            <!-- Chart -->
-            <div class="row">
-                <div class="chart col-12 col-md-6">
-                    <canvas id="myChart"></canvas>
-                </div>
-                <div class=" chart col-12 col-md-6">
-                    <canvas id="myChart1"></canvas>
-                </div>
-            </div>
-            <!-- /Chart -->
-
-
-        </div>
-        <!-- Dashboard footer -->
-        <footer id="dashboardFooter" class="dashboardFooter mainContent">
-            <div class="row">
-                <div class="col-12">
-                    <strong>
+            <!-- Dashboard footer -->
+            <footer id="dashboardFooter" class="dashboardFooter mainContent">
+                <div class="row">
+                    <div class="col-12">
+                        <strong>
                             Shared by
                                 <a href="www.jeandremelaria.nl">Jeandre Melaria</a>
                             </strong>
 
-                    <div class="float-right">
-                        <strong>Version</strong>&nbsp;1.0.0
+                        <div class="float-right">
+                            <strong>Version</strong>&nbsp;1.0.0
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-        <!-- /Dashboard footer -->
+            </footer>
+            <!-- /Dashboard footer -->
+        </div>
         <!-- /Dashboard -->
-
     </main>
     <script>
     </script>
