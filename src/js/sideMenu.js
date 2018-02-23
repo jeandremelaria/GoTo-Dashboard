@@ -6,6 +6,7 @@ document.getElementById('closeIcon').addEventListener('click', closeSideMenu);
 var w = window.innerWidth;
 var sideMenu = document.getElementById('sideMenu');
 var mainContent = document.getElementById('mainContent');
+var dashboardFooter = document.getElementById('dashboardFooter');
 
 // Functions
 function openSideMenu() {
@@ -25,10 +26,12 @@ function openSideMenu() {
     } else {
         sideMenu.style.width = '26rem';
         mainContent.style.marginLeft = '26rem';
+        // dashboardFooter.style.marginLeft = '26rem';
     }
 }
 
 function closeSideMenu() {
     sideMenu.style.width = '0';
     mainContent.style.marginLeft = '0';
+    dashboardFooter.style.marginLeft = '0';
 }

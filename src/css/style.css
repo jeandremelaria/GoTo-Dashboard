@@ -358,6 +358,8 @@ body {
   }
   .sideMenu {
     top: 3.1rem;
+    position: absolute;
+    height: 100%;
   }
   .input-group {
     width: 14rem;
