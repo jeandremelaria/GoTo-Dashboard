@@ -277,6 +277,12 @@ Last modified:
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.dashboardFooter {
+  margin-top: 1rem;
+  background-color: white;
+  height: 4rem;
+  padding: 1.2rem;
+}
 .dashboardBox__body {
   padding: 0.5rem;
   border-top-left-radius: 5px;
