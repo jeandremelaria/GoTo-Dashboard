@@ -273,6 +273,10 @@ Last modified:
 .mainContent .dashboardBox__visitorsFooter:hover {
   background-color: #990000;
 }
+.mainContent .chart {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .dashboardBox__body {
   padding: 0.5rem;
   border-top-left-radius: 5px;
