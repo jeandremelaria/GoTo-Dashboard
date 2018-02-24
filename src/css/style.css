@@ -352,6 +352,9 @@ Last modified:
 .mainContent .profileSettings .form .btn {
   margin-left: 6.7rem;
 }
+#profile {
+  display: none;
+}
 .fa {
   color: white;
 }

@@ -340,16 +340,16 @@ Last modified:
                         </div>
                     </div>
                     <ul class="sideMenu__links">
-                        <li class="sideMenu__links--linkStyle">
+                        <li id="sideMenuDashboard" class="sideMenu__links--linkStyle">
                             <a href="#">
                                 <i class="sideMenu__links--icon fa fa-tachometer"></i>Dashboard
                             </a>
                         </li>
-                        <li id="profile" class="sideMenu__links--linkStyle">
+                        <li id="sideMenuProfile" class="sideMenu__links--linkStyle">
                             <a href="#">
                                 <i class=" sideMenu__links--icon fa fa-user"></i> Profile</a>
                         </li>
-                        <li class="sideMenu__links--linkStyle">
+                        <li id="sideMenuCalender" class="sideMenu__links--linkStyle">
                             <a href="#">
                                 <i class="sideMenu__links--icon fa fa-calendar"></i>Calender
                             </a>
@@ -450,7 +450,7 @@ Last modified:
 
         <div id="mainContent" class="mainContent container-fluid">
             <!-- Dashboard -->
-            <!-- <div id="dashboard">
+            <div id="dashboard">
                 <div class="dashboard row">
                     <div class="col-6 col-md-8">
                         <h2 class="dashboard_header">Dashboard</h2>
@@ -465,9 +465,9 @@ Last modified:
                         </ol>
                     </div>
                 </div>
-                <div class="row"> -->
-            <!-- DashboardBox -->
-            <!-- <div class="dashboardBox col-6 col-md-3">
+                <div class="row">
+                    <!-- DashboardBox -->
+                    <div class="dashboardBox col-6 col-md-3">
                         <div class="dashboardBox__newOrders">
                             <div class="dashboard__inner">
                                 <ul class="list-inline">
@@ -483,10 +483,10 @@ Last modified:
                                 </ul>
 
                             </div>
-                        </div> -->
+                        </div>
 
-            <!-- DashboardBox footer -->
-            <!-- <div class="row">
+                        <!-- DashboardBox footer -->
+                        <div class="row">
                             <div class="col-12">
                                 <div class="dashboardBox__newOrdersFooter text-center">
                                     <a href="#">More info
@@ -494,13 +494,13 @@ Last modified:
                                     </a>
                                 </div>
                             </div>
-                        </div> -->
-            <!-- /DashboardBox footer -->
-            <!-- </div> -->
-            <!-- /DashboardBox -->
+                        </div>
+                        <!-- /DashboardBox footer -->
+                    </div>
+                    <!-- /DashboardBox -->
 
-            <!-- DashboardBox -->
-            <!-- <div class="dashboardBox col-6 col-md-3">
+                    <!-- DashboardBox -->
+                    <div class="dashboardBox col-6 col-md-3">
                         <div class="dashboardBox__bounceRate">
                             <div class="dashboard__inner">
                                 <ul class="list-inline">
@@ -515,10 +515,10 @@ Last modified:
                                     </li>
                                 </ul>
                             </div>
-                        </div> -->
+                        </div>
 
-            <!-- DashboardBox footer -->
-            <!-- <div class="row">
+                        <!-- DashboardBox footer -->
+                        <div class="row">
                             <div class="col-12">
                                 <div class="dashboardBox__bounceRateFooter text-center">
                                     <a href="#">More info
@@ -526,14 +526,14 @@ Last modified:
                                     </a>
                                 </div>
                             </div>
-                        </div> -->
-            <!-- /DashboardBox footer -->
-            <!-- </div> -->
-            <!-- /DashboardBox -->
+                        </div>
+                        <!-- /DashboardBox footer -->
+                    </div>
+                    <!-- /DashboardBox -->
 
 
-            <!-- DashboardBox -->
-            <!-- <div class="dashboardBox col-6 col-md-3">
+                    <!-- DashboardBox -->
+                    <div class="dashboardBox col-6 col-md-3">
                         <div class="dashboardBox__userRegistration">
                             <div class="dashboard__inner">
                                 <ul class="list-inline">
@@ -548,10 +548,10 @@ Last modified:
                                     </li>
                                 </ul>
                             </div>
-                        </div> -->
+                        </div>
 
-            <!-- DashboardBox footer -->
-            <!-- <div class="row">
+                        <!-- DashboardBox footer -->
+                        <div class="row">
                             <div class="col-12">
                                 <div class="dashboardBox__userRegistrationFooter text-center">
                                     <a href="#">More info
@@ -559,13 +559,13 @@ Last modified:
                                         </a>
                                 </div>
                             </div>
-                        </div> -->
-            <!-- /DashboardBox footer -->
-            <!-- </div> -->
-            <!-- /DashboardBox -->
+                        </div>
+                        <!-- /DashboardBox footer -->
+                    </div>
+                    <!-- /DashboardBox -->
 
-            <!-- DashboardBox -->
-            <!-- <div class="dashboardBox col-6 col-md-3">
+                    <!-- DashboardBox -->
+                    <div class="dashboardBox col-6 col-md-3">
                         <div class="dashboardBox__visitors">
                             <div class="dashboard__inner">
                                 <ul class="list-inline">
@@ -580,10 +580,10 @@ Last modified:
                                     </li>
                                 </ul>
                             </div>
-                        </div> -->
+                        </div>
 
-            <!-- DashboardBox footer -->
-            <!-- <div class="row">
+                        <!-- DashboardBox footer -->
+                        <div class="row">
                             <div class="col-12">
                                 <div class="dashboardBox__visitorsFooter text-center">
                                     <a href="#">More info
@@ -591,23 +591,23 @@ Last modified:
                                     </a>
                                 </div>
                             </div>
-                        </div> -->
-            <!-- /DashboardBox footer -->
-            <!-- </div> -->
-            <!-- /DashboardBox -->
-            <!-- </div> -->
+                        </div>
+                        <!-- /DashboardBox footer -->
+                    </div>
+                    <!-- /DashboardBox -->
+                </div>
 
-            <!-- Chart -->
-            <!-- <div class="row">
+                <!-- Chart -->
+                <div class="row">
                     <div class="chart col-12 col-md-6">
                         <canvas id="myChart"></canvas>
                     </div>
                     <div class=" chart col-12 col-md-6">
                         <canvas id="myChart1"></canvas>
                     </div>
-                </div> -->
-            <!-- /Chart -->
-            <!-- </div> -->
+                </div>
+                <!-- /Chart -->
+            </div>
             <!-- /dashboard -->
 
             <div id="profile">
@@ -761,12 +761,8 @@ Last modified:
                             </form>
                         </div>
                     </div>
+
                     <!-- /profile settings -->
-
-                </div>
-
-                <div class="row">
-
                 </div>
 
             </div>
@@ -791,11 +787,18 @@ Last modified:
         <!-- /Dashboard -->
     </main>
     <script>
-        // document.getElementById('profile').addEventListener('click', getProfile);
+        document.getElementById('sideMenuProfile').addEventListener('click', getProfile);
+        document.getElementById('sideMenuDashboard').addEventListener('click', getDashboard);
 
-        // function getProfile() {
-        //     document.getElementById('dashboard').style.display = 'none';
-        // }
+        function getDashboard() {
+            document.getElementById('profile').style.display = 'none';
+            document.getElementById('dashboard').style.display = 'block';
+        }
+
+        function getProfile() {
+            document.getElementById('dashboard').style.display = 'none';
+            document.getElementById('profile').style.display = 'block';
+        }
     </script>
 
     <script src=" js/sideMenu.js "></script>
