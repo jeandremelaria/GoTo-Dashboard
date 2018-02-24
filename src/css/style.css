@@ -341,6 +341,17 @@ Last modified:
   list-style: none;
   margin-left: 1.2rem;
 }
+.mainContent .profileSettings .form {
+  margin-top: -1rem;
+  padding: 1.5rem;
+}
+.mainContent .profileSettings .form .form__terms {
+  margin-left: 6.7rem;
+  margin-bottom: 1rem;
+}
+.mainContent .profileSettings .form .btn {
+  margin-left: 6.7rem;
+}
 .fa {
   color: white;
 }
