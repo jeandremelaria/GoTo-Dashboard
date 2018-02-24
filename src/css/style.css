@@ -295,6 +295,9 @@ Last modified:
   height: 2rem;
   padding: 0.2rem;
 }
+.mainContent .profile {
+  margin-bottom: 4.3rem;
+}
 .mainContent .profileSummary,
 .mainContent .profileAboutMe,
 .mainContent .profileSettings {
