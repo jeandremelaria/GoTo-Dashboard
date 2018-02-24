@@ -296,38 +296,48 @@ Last modified:
   padding: 0.2rem;
 }
 .mainContent .profileSummary,
-.mainContent .profileAboutMe {
+.mainContent .profileAboutMe,
+.mainContent .profileSettings {
   margin-top: 1rem;
   padding-top: 1.5rem;
   background-color: white;
   border-top: 5px solid #3A5EA6;
 }
 .mainContent .profileSummary .profileSummary__infoItem,
-.mainContent .profileAboutMe .profileSummary__infoItem {
+.mainContent .profileAboutMe .profileSummary__infoItem,
+.mainContent .profileSettings .profileSummary__infoItem {
   margin: 0.5rem;
   list-style: none;
 }
 .mainContent .profileSummary .profileSummary__infoItem .img-thumbnail,
-.mainContent .profileAboutMe .profileSummary__infoItem .img-thumbnail {
+.mainContent .profileAboutMe .profileSummary__infoItem .img-thumbnail,
+.mainContent .profileSettings .profileSummary__infoItem .img-thumbnail {
   border-color: grey;
   border-width: 3px;
 }
 .mainContent .profileSummary .profileSummary__infoItem .profileSummary__infoItem--img,
-.mainContent .profileAboutMe .profileSummary__infoItem .profileSummary__infoItem--img {
+.mainContent .profileAboutMe .profileSummary__infoItem .profileSummary__infoItem--img,
+.mainContent .profileSettings .profileSummary__infoItem .profileSummary__infoItem--img {
   width: 30%;
   margin-bottom: 1rem;
 }
 .mainContent .profileSummary .profileSummary__infoItem--txtColor,
-.mainContent .profileAboutMe .profileSummary__infoItem--txtColor {
+.mainContent .profileAboutMe .profileSummary__infoItem--txtColor,
+.mainContent .profileSettings .profileSummary__infoItem--txtColor {
   color: grey;
 }
 .mainContent .profileSummary .list-group-item,
-.mainContent .profileAboutMe .list-group-item {
+.mainContent .profileAboutMe .list-group-item,
+.mainContent .profileSettings .list-group-item {
   border-radius: 0;
   border-left: none;
   border-right: none;
 }
 .mainContent .profileAboutMe .profileAboutMe__title {
+  list-style: none;
+  margin-left: 1.2rem;
+}
+.mainContent .profileSettings .profileSettings__title {
   list-style: none;
   margin-left: 1.2rem;
 }
