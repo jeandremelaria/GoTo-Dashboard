@@ -333,7 +333,7 @@ Last modified:
 // Profile
 .mainContent {
   
-  .profileSummary {
+  .profileSummary, .profileAboutMe {
     margin-top:@margin;
     padding-top:(@padding + 1rem);
     background-color: @white;
@@ -354,10 +354,20 @@ Last modified:
  
       }
     }
+    .profileSummary__infoItem--txtColor {
+      color:@greyLight;
+    }
     .list-group-item {
       border-radius: 0;
       border-left:none;
       border-right:none;
+    }
+  }
+
+  .profileAboutMe {
+    .profileAboutMe__title {
+      list-style: none;
+      margin-left:(@margin + 0.2rem);
     }
   }
 
@@ -382,6 +392,9 @@ Last modified:
 }
 .fa-user {
   color:@red;
+}
+.fa-graduation-cap, .fa-map-marker, .fa-pencil, .fa-sticky-note {
+  color:@blueDark;
 }
 .badge {
   display:inline-block;
