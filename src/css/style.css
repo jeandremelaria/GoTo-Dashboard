@@ -295,6 +295,24 @@ Last modified:
   height: 2rem;
   padding: 0.2rem;
 }
+.mainContent .profileSummary {
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+  background-color: white;
+  border-top: 5px solid #3A5EA6;
+}
+.mainContent .profileSummary .profileSummary__infoItem {
+  margin: 0.5rem;
+  list-style: none;
+}
+.mainContent .profileSummary .profileSummary__infoItem .img-thumbnail {
+  border-color: grey;
+  border-width: 3px;
+}
+.mainContent .profileSummary .profileSummary__infoItem .profileSummary__infoItem--img {
+  width: 30%;
+  margin-bottom: 1rem;
+}
 .fa {
   color: white;
 }

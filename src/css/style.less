@@ -309,7 +309,6 @@ Last modified:
     margin-top:(@margin + 1rem);
     margin-bottom: (@margin + 1rem);
   }
- 
 }
 .dashboardFooter {
   margin-top:@margin;
@@ -329,6 +328,35 @@ Last modified:
   border-bottom-right-radius: 5px;
   height:(@height - 1.1rem);
   padding:(@padding - 0.3rem);
+}
+
+// Profile
+.mainContent {
+  
+  .profileSummary {
+    margin-top:@margin;
+    padding-top:(@padding + 1rem);
+    background-color: @white;
+    border-top: 5px solid @blueDark;
+
+    .profileSummary__infoItem {
+      margin: (@margin - 0.5rem);
+      list-style: none;
+
+      .img-thumbnail {
+        border-color:@greyLight;
+        border-width: 3px;
+      }
+
+      .profileSummary__infoItem--img {
+        width:30%;
+        margin-bottom: @margin;
+
+        
+      }
+    }
+  }
+
 }
 
 // fa
