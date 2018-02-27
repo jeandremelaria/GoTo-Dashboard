@@ -1,3 +1,5 @@
+// Main content
+
 // Events Listener
 document.getElementById('sideMenuDashboard').addEventListener('click', getDashboard);
 document.getElementById('sideMenuProfile').addEventListener('click', getProfile);

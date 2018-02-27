@@ -355,8 +355,11 @@ Last modified:
 .mainContent .profileSettings .form .btn {
   margin-left: 6.7rem;
 }
+.mainContent .fullCalendar {
+  margin-top: -3rem;
+}
 #profile,
-#calendar {
+#dashboard {
   display: none;
 }
 .fa {
