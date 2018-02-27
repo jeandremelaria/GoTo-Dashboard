@@ -2,7 +2,7 @@
 
 //  // Events Listener
 //  document.getElementById('sideMenuDashboard').addEventListener('click', getDashboard);
-// //  document.getElementById('sideMenuProfile').addEventListener('click', getProfile);
+//  //  document.getElementById('sideMenuProfile').addEventListener('click', getProfile);
 //  document.getElementById('sideMenuCalendar').addEventListener('click', getCalendar);
 
 //  // Variables

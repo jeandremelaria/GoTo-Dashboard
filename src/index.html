@@ -787,6 +787,23 @@ Last modified:
         <!-- /Dashboard -->
     </main>
     <script>
+        // Events Listener
+        document.getElementById('sideMenuDashboard').addEventListener('click', getDashboard);
+        document.getElementById('sideMenuProfile').addEventListener('click', getProfile);
+
+        //  Variables
+        var dashboard = document.getElementById('dashboard');
+        var profile = document.getElementById('profile');
+
+        function getDashboard() {
+            profile.style.display = 'none';
+            dashboard.style.display = 'block';
+        }
+
+        function getProfile() {
+            dashboard.style.display = 'none';
+            profile.style.display = 'block';
+        }
     </script>
 
     <script src="js/main.js"></script>
