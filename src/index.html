@@ -39,6 +39,15 @@ Last modified:
 
     <!-- Chart js JavaScript -->
     <script src="../node_modules/chart.js/dist/Chart.min.js"></script>
+
+    <!-- Full Calender -->
+    <link rel="stylesheet" href="../node_modules/fullcalendar/dist/fullcalendar.css">
+
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js "></script>
+    <script src="../node_modules/moment/min/moment.min.js"></script>
+    <script src="../node_modules/fullcalendar/dist/fullcalendar.js"></script>
+
+
 </head>
 
 <body>
@@ -770,7 +779,7 @@ Last modified:
             <div id="calendar">
                 <div class="row">
                     <div class="col-12" style="background-color:red">
-                        hghghhghghhghg
+                        <div id='fullcalendar'></div>
                     </div>
                 </div>
             </div>
@@ -798,39 +807,12 @@ Last modified:
         <!-- /Dashboard -->
     </main>
     <script>
-        // Events Listener
-        document.getElementById('sideMenuDashboard').addEventListener('click', getDashboard);
-        document.getElementById('sideMenuProfile').addEventListener('click', getProfile);
-        document.getElementById('sideMenuCalender').addEventListener('click', getCalendar);
-
-        //  Variables
-        var dashboard = document.getElementById('dashboard');
-        var profile = document.getElementById('profile');
-        var calendar = document.getElementById('calendar');
-
-        function getDashboard() {
-            profile.style.display = 'none';
-            calendar.style.display = 'none';
-            dashboard.style.display = 'block';
-        }
-
-        function getProfile() {
-            dashboard.style.display = 'none';
-            calendar.style.display = 'none';
-            profile.style.display = 'block';
-        }
-
-        function getCalendar() {
-            dashboard.style.display = 'none';
-            profile.style.display = 'none';
-            calendar.style.display = 'block';
-        }
     </script>
 
     <script src="js/main.js"></script>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../node_modules/jquery/dist/jquery.slim.min.js "></script>
+    <!-- <script src="../node_modules/jquery/dist/jquery.slim.min.js "></script> -->
     <script src="../node_modules/popper.js/dist/popper.min.js "></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
 
