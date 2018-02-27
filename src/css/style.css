@@ -300,7 +300,8 @@ Last modified:
 }
 .mainContent .profileSummary,
 .mainContent .profileAboutMe,
-.mainContent .profileSettings {
+.mainContent .profileSettings,
+.mainContent .calendar {
   margin-top: 1rem;
   padding-top: 1.5rem;
   background-color: white;
@@ -308,30 +309,35 @@ Last modified:
 }
 .mainContent .profileSummary .profileSummary__infoItem,
 .mainContent .profileAboutMe .profileSummary__infoItem,
-.mainContent .profileSettings .profileSummary__infoItem {
+.mainContent .profileSettings .profileSummary__infoItem,
+.mainContent .calendar .profileSummary__infoItem {
   margin: 0.5rem;
   list-style: none;
 }
 .mainContent .profileSummary .profileSummary__infoItem .img-thumbnail,
 .mainContent .profileAboutMe .profileSummary__infoItem .img-thumbnail,
-.mainContent .profileSettings .profileSummary__infoItem .img-thumbnail {
+.mainContent .profileSettings .profileSummary__infoItem .img-thumbnail,
+.mainContent .calendar .profileSummary__infoItem .img-thumbnail {
   border-color: grey;
   border-width: 3px;
 }
 .mainContent .profileSummary .profileSummary__infoItem .profileSummary__infoItem--img,
 .mainContent .profileAboutMe .profileSummary__infoItem .profileSummary__infoItem--img,
-.mainContent .profileSettings .profileSummary__infoItem .profileSummary__infoItem--img {
+.mainContent .profileSettings .profileSummary__infoItem .profileSummary__infoItem--img,
+.mainContent .calendar .profileSummary__infoItem .profileSummary__infoItem--img {
   width: 30%;
   margin-bottom: 1rem;
 }
 .mainContent .profileSummary .profileSummary__infoItem--txtColor,
 .mainContent .profileAboutMe .profileSummary__infoItem--txtColor,
-.mainContent .profileSettings .profileSummary__infoItem--txtColor {
+.mainContent .profileSettings .profileSummary__infoItem--txtColor,
+.mainContent .calendar .profileSummary__infoItem--txtColor {
   color: grey;
 }
 .mainContent .profileSummary .list-group-item,
 .mainContent .profileAboutMe .list-group-item,
-.mainContent .profileSettings .list-group-item {
+.mainContent .profileSettings .list-group-item,
+.mainContent .calendar .list-group-item {
   border-radius: 0;
   border-left: none;
   border-right: none;
@@ -354,9 +360,6 @@ Last modified:
 }
 .mainContent .profileSettings .form .btn {
   margin-left: 6.7rem;
-}
-.mainContent .fullCalendar {
-  margin-top: -3rem;
 }
 #profile,
 #dashboard {
