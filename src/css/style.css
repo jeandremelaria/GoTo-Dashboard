@@ -355,7 +355,8 @@ Last modified:
 .mainContent .profileSettings .form .btn {
   margin-left: 6.7rem;
 }
-#profile {
+#profile,
+#calendar {
   display: none;
 }
 .fa {
