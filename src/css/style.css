@@ -240,21 +240,21 @@ Last modified:
   background-color: #004023;
 }
 .mainContent .dashboardBox__userRegistration {
-  background-color: #FF8C00;
+  background-color: orange;
   padding: 0.5rem;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   height: 6rem;
 }
 .mainContent .dashboardBox__userRegistrationFooter {
-  background-color: #cc7000;
+  background-color: #cc8400;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   height: 2rem;
   padding: 0.2rem;
 }
 .mainContent .dashboardBox__userRegistrationFooter:hover {
-  background-color: #995400;
+  background-color: #996300;
 }
 .mainContent .dashboardBox__visitors {
   background-color: #ff3333;
@@ -367,8 +367,47 @@ Last modified:
 .mainContent .calendar__colorPicker {
   list-style: none;
 }
+.mainContent .calendar__colorPicker a a:active {
+  outline: 2px blue;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--cyan {
+  color: #18CDCA;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--aqua {
+  color: #00c0ef;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--blue {
+  color: #4F80E1;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--darkblue {
+  color: #3A5EA6;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--yellow {
+  color: #f39c12;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--orange {
+  color: #f39c12;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--lime {
+  color: #01ff70;
+}
 .mainContent .calendar__colorPicker .calendar__colorPicker--green {
-  color: green;
+  color: #008000;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--red {
+  color: #cc0000;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--purple {
+  color: purple;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--pink {
+  color: pink;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--grey {
+  color: grey;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--greyDark {
+  color: #222D32;
 }
 #profile,
 #dashboard {
@@ -385,7 +424,7 @@ Last modified:
   color: #18CDCA;
 }
 .fa-exclamation-triangle {
-  color: #FF8C00;
+  color: orange;
 }
 .fa-shopping-cart,
 .fa-circle {
