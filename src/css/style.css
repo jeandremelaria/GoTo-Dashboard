@@ -412,6 +412,21 @@ Last modified:
 .mainContent .calendar__event .calendar__event--btn {
   margin-top: -2.4rem;
 }
+.mainContent .calendar__externalEvents--style {
+  border-radius: 5px;
+  margin: 5px;
+  height: 2rem;
+  padding: 0.5rem;
+}
+.mainContent .calendar__externalEvents--style .calendar__externalEvents--txtColor {
+  color: white;
+}
+.mainContent .calendar__externalEventsBgColor--cyan {
+  background-color: #18CDCA;
+}
+.mainContent .calendar__externalEventsBgColor--aqua {
+  background-color: #00c0ef;
+}
 #profile,
 #dashboard {
   display: none;
