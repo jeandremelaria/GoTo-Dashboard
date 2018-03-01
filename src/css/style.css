@@ -427,6 +427,9 @@ Last modified:
 .mainContent .calendar__externalEvents--style .calendar__externalEvents--txtColor {
   color: white;
 }
+.mainContent .calendar__externalEvents--style .calendar__externalEvents--btnClose {
+  margin-top: -2.1rem;
+}
 .mainContent .calendar__externalEventsBgColor--cyan {
   background-color: #18CDCA;
 }
