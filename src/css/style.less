@@ -403,11 +403,7 @@ Last modified:
     margin:0 auto;
   }
   .calendar__colorPicker {
-    a {
-      a:active {
-        outline: 2px blue;
-    }
-    }
+
     list-style: none;
     .calendar__colorPicker--cyan {
       color:@cyan;
@@ -452,9 +448,17 @@ Last modified:
     
   }
 
+  .calendar__event {
+    .calendar__event--input {
+      width:14rem;
+    }
+    .calendar__event--btn {
+      margin-top:-2.4rem;
+    }
+  }
 }
 //Id's
-#profile, #calendar {
+#profile, #dashboard {
   display:none;
 }
 // fa

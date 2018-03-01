@@ -367,9 +367,6 @@ Last modified:
 .mainContent .calendar__colorPicker {
   list-style: none;
 }
-.mainContent .calendar__colorPicker a a:active {
-  outline: 2px blue;
-}
 .mainContent .calendar__colorPicker .calendar__colorPicker--cyan {
   color: #18CDCA;
 }
@@ -409,8 +406,14 @@ Last modified:
 .mainContent .calendar__colorPicker .calendar__colorPicker--greyDark {
   color: #222D32;
 }
+.mainContent .calendar__event .calendar__event--input {
+  width: 14rem;
+}
+.mainContent .calendar__event .calendar__event--btn {
+  margin-top: -2.4rem;
+}
 #profile,
-#calendar {
+#dashboard {
   display: none;
 }
 .fa {
