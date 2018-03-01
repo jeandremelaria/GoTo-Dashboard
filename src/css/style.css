@@ -418,6 +418,9 @@ Last modified:
 .mainContent .calendar__event .calendar__event--btn {
   margin-top: -3.4rem;
 }
+.mainContent .calendar__externalEvents .calendar__externalEventsFooter {
+  margin-bottom: 2rem;
+}
 .mainContent .calendar__externalEvents--style {
   border-radius: 5px;
   margin: 5px;
