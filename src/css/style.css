@@ -363,6 +363,7 @@ Last modified:
 }
 .mainContent .calendar {
   margin: 0 auto;
+  margin-bottom: 1rem !important;
 }
 .mainContent .calendar__colorPicker {
   list-style: none;
@@ -406,11 +407,16 @@ Last modified:
 .mainContent .calendar__colorPicker .calendar__colorPicker--greyDark {
   color: #222D32;
 }
+.mainContent .calendar__event {
+  margin-bottom: 3rem;
+}
 .mainContent .calendar__event .calendar__event--input {
   width: 14rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 .mainContent .calendar__event .calendar__event--btn {
-  margin-top: -2.4rem;
+  margin-top: -3.4rem;
 }
 .mainContent .calendar__externalEvents--style {
   border-radius: 5px;
