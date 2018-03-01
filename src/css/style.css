@@ -430,11 +430,11 @@ Last modified:
 .mainContent .calendar__externalEvents--style .calendar__externalEvents--btnClose {
   margin-top: -2.1rem;
 }
+.mainContent .calendar__externalEventsBgColor--yellow {
+  background-color: #f39c12;
+}
 .mainContent .calendar__externalEventsBgColor--cyan {
   background-color: #18CDCA;
-}
-.mainContent .calendar__externalEventsBgColor--aqua {
-  background-color: #00c0ef;
 }
 #profile,
 #dashboard {
