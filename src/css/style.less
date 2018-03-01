@@ -391,12 +391,24 @@ Last modified:
     }
   }
 
-.calendar {
-  margin:0 auto;
+
 }
+
+// Calendar
+.mainContent {
+  .calendar {
+    margin:0 auto;
+  }
+  .calendar__colorPicker {
+    list-style: none;
+    .calendar__colorPicker--green {
+      color:green;
+    }
+  }
+
 }
 //Id's
-#profile, #calendar {
+#profile, #dashboard {
   display:none;
 }
 // fa
@@ -421,6 +433,9 @@ Last modified:
 }
 .fa-graduation-cap, .fa-map-marker, .fa-pencil, .fa-sticky-note {
   color:@blueDark;
+}
+.fa-square {
+  font-size:2rem;
 }
 .badge {
   display:inline-block;

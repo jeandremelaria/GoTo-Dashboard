@@ -364,8 +364,14 @@ Last modified:
 .mainContent .calendar {
   margin: 0 auto;
 }
+.mainContent .calendar__colorPicker {
+  list-style: none;
+}
+.mainContent .calendar__colorPicker .calendar__colorPicker--green {
+  color: green;
+}
 #profile,
-#calendar {
+#dashboard {
   display: none;
 }
 .fa {
@@ -393,6 +399,9 @@ Last modified:
 .fa-pencil,
 .fa-sticky-note {
   color: #3A5EA6;
+}
+.fa-square {
+  font-size: 2rem;
 }
 .badge {
   display: inline-block;
