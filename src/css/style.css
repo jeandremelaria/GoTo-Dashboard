@@ -418,26 +418,26 @@ Last modified:
 .mainContent .calendar__event .calendar__event--btn {
   margin-top: -3.4rem;
 }
-.mainContent .calendar__externalEvents .calendar__externalEventsFooter {
-  margin-bottom: 2rem;
-}
-.mainContent .calendar__externalEvents--style {
+.mainContent .calendar__externalEvents .calendar__externalEvents--style {
   border-radius: 5px;
   margin: 5px;
   height: 2rem;
   padding: 0.5rem;
 }
-.mainContent .calendar__externalEvents--style .calendar__externalEvents--txtColor {
+.mainContent .calendar__externalEvents .calendar__externalEvents--style .calendar__externalEvents--txtColor {
   color: white;
 }
-.mainContent .calendar__externalEvents--style .calendar__externalEvents--btnClose {
+.mainContent .calendar__externalEvents .calendar__externalEvents--style .calendar__externalEvents--btnClose {
   margin-top: -2.1rem;
 }
-.mainContent .calendar__externalEventsBgColor--yellow {
+.mainContent .calendar__externalEvents .calendar__externalEventsBgColor--yellow {
   background-color: #f39c12;
 }
-.mainContent .calendar__externalEventsBgColor--cyan {
+.mainContent .calendar__externalEvents .calendar__externalEventsBgColor--cyan {
   background-color: #18CDCA;
+}
+.mainContent .calendar__externalEvents .calendar__externalEventsFooter {
+  margin-bottom: 2rem;
 }
 #profile,
 #dashboard {

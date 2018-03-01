@@ -462,30 +462,30 @@ Last modified:
     }
   }
   .calendar__externalEvents {
+
+    .calendar__externalEvents--style {
+      border-radius: 5px;
+      margin:5px;
+      height:2rem;
+      padding:@padding;
+  
+      .calendar__externalEvents--txtColor {
+        color:@white;
+      }
+      .calendar__externalEvents--btnClose {
+        margin-top:-(@margin + 1.1rem);
+      }
+    }
+  
+    .calendar__externalEventsBgColor--yellow {
+      background-color:@yellow;
+    }
+    .calendar__externalEventsBgColor--cyan {
+      background-color:@cyan;
+    }
     .calendar__externalEventsFooter {
       margin-bottom: (@margin + 1rem);
     }
-  }
-  .calendar__externalEvents--style {
-    border-radius: 5px;
-    margin:5px;
-    // margin-bottom: (@margin + 1rem);
-    height:2rem;
-    padding:@padding;
-
-    .calendar__externalEvents--txtColor {
-      color:@white;
-    }
-    .calendar__externalEvents--btnClose {
-      margin-top:-(@margin + 1.1rem);
-    }
-  }
-
-  .calendar__externalEventsBgColor--yellow {
-    background-color:@yellow;
-  }
-  .calendar__externalEventsBgColor--cyan {
-    background-color:@cyan;
   }
   
 }
