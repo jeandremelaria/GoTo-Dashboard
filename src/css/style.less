@@ -453,7 +453,7 @@ Last modified:
   .calendar__event {
     margin-bottom: 3rem;
     .calendar__event--input {
-      width:14rem;
+      width:25rem;
       margin-top:(@margin + 1.5rem);
       margin-bottom: @margin;
     }
@@ -538,7 +538,8 @@ body {
 }
 
 // Small devices (landscape phones, 576px and up)
-@media only screen and (min-width: 576px) {  }
+@media only screen and (min-width: 576px) { 
+ }
 
 // Medium devices (tablets, 768px and up)
 @media only screen and (min-width: 768px) { 
@@ -563,6 +564,10 @@ body {
   .dashboard__footer {
     width:(@width + 20.65rem)!important;
   }
+
+  .calendar__event--input {
+    width:5.5rem!important;
+  }
 }
   
 
@@ -580,6 +585,9 @@ body {
   .dashboard__footer {
     width:(@width + 27.55rem)!important;
   }
+  .calendar__event--input {
+    width:9rem!important;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -589,5 +597,8 @@ body {
   }
   .input-group {
     width:(@width + 21.5rem);
+  }
+  .calendar__event--input {
+    width:12rem!important;
   }
 }

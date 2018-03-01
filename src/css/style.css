@@ -411,7 +411,7 @@ Last modified:
   margin-bottom: 3rem;
 }
 .mainContent .calendar__event .calendar__event--input {
-  width: 14rem;
+  width: 25rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -524,6 +524,9 @@ body {
   .dashboard__footer {
     width: 22.15rem !important;
   }
+  .calendar__event--input {
+    width: 5.5rem!important;
+  }
 }
 @media (min-width: 992px) {
   .header__menuToggle--icon {
@@ -542,6 +545,9 @@ body {
   .dashboard__footer {
     width: 29.05rem !important;
   }
+  .calendar__event--input {
+    width: 9rem!important;
+  }
 }
 @media (min-width: 1200px) {
   .header__menuToggle--icon {
@@ -549,5 +555,8 @@ body {
   }
   .input-group {
     width: 23rem;
+  }
+  .calendar__event--input {
+    width: 12rem!important;
   }
 }
