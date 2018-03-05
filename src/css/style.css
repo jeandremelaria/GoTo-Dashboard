@@ -439,6 +439,9 @@ Last modified:
 .mainContent .calendar__externalEvents .calendar__externalEventsFooter {
   margin-bottom: 2rem;
 }
+.mainContent .calendar__fullCalendar {
+  margin-bottom: 1rem !important;
+}
 #profile,
 #dashboard {
   display: none;
