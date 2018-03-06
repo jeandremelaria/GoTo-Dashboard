@@ -443,7 +443,10 @@ Last modified:
   margin-bottom: 1rem !important;
 }
 #profile,
-#dashboard {
+#dashboard,
+#calendar,
+#mailRead,
+#mailCompose {
   display: none;
 }
 .fa {

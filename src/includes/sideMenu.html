@@ -1,0 +1,126 @@
+<div class="row">
+    <div id="sideMenu" class="sideMenu">
+        <ul class="sideMenu__links list-inline">
+            <li id="closeIcon">
+                <i class="sideMenu__links--closeIcon fa fa-times-circle float-right"></i>
+            </li>
+            <li class="clearfix"></li>
+            <li class="list-inline-item">
+                <img class="sideMenu__links--img img-fluid rounded-circle img-thumbnail" src="img/user-profile-pic1.jpg" alt="User profile">
+            </li>
+            <li class="list-inline-item">Carren Schaden<br>
+                <small><i class="fa fa-circle"></i> &nbsp;Online</small></li>
+        </ul>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search..." aria-label="Search">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <ul class="sideMenu__links">
+            <li id="sideMenuDashboard" class="sideMenu__links--linkStyle">
+                <a href="#">
+                    <i class="sideMenu__links--icon fa fa-tachometer"></i>Dashboard
+                </a>
+            </li>
+            <li id="sideMenuProfile" class="sideMenu__links--linkStyle">
+                <a href="#">
+                    <i class=" sideMenu__links--icon fa fa-user"></i> Profile</a>
+            </li>
+            <li id="sideMenuCalender" class="sideMenu__links--linkStyle">
+                <a href="#">
+                    <i class="sideMenu__links--icon fa fa-calendar"></i>Calender
+                </a>
+                <span class="badge badge-danger">3</span>
+            </li>
+            <li id="accordion" class="sideMenu__links--linkStyle accordion">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <i class=" sideMenu__links--icon fa fa-envelope"></i>Mailbox
+                        </a>
+                        <span class="badge badge-primary">17</span>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse">
+                        <ul class="accordion accordion-inner">
+                            <li class="accordion__link">
+                                <a class="accordion__link--color" href="#">Inbox</a>
+                                <span class="badge badge-primary">17</span>
+                            </li>
+                            <li class="accordion__link">
+                                <a class="accordion__link--color" href="#">Read</a>
+                            </li>
+                            <li class="accordion__link">
+                                <a class="accordion__link--color" href="#">Compose</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li id="accordion1" class="sideMenu__links--linkStyle accordion">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">
+                            <i class=" sideMenu__links--icon fa fa-comment"></i>Chat
+                        </a>
+                        <span class="badge badge-success">1</span>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <ul class="accordion accordion-inner">
+                            <li class="accordion__link">
+                                <a class="accordion__link--color" href="#">
+                                      John Doe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li id="accordion2" class="sideMenu__links--linkStyle accordion">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                            <i class=" sideMenu__links--icon fa fa-comment"></i>To Do List
+                        </a>
+                        <span class="badge badge-info">1</span>
+                    </div>
+                    <div id="collapseThree" class="accordion-body collapse">
+                        <ul class="accordion accordion-inner">
+                            <li class="accordion__link">
+                                <a class="accordion__link--color" href="#">
+                                       Analyze business trends</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="sideMenu__links--linkStyle" data-toggle="modal" data-target="#signOut">
+                <!-- trigger modal -->
+                <a href="#">
+                    <i class="sideMenu__links--icon fa fa-sign-out"></i>Sign out
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- Modal sign out-->
+<div class="modal fade col-6" id="signOut" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Sign out</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+            </div>
+            <div class="modal-body">
+                You are about to sign out. Are you sure u want to sign out?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">Yes</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Modal sign out-->
