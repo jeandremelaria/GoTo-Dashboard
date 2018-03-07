@@ -220,10 +220,10 @@ Last modified:
                 <div class="row">
                     <div class="col-12 col-md-12">
                         <div class="row">
-                            <div class="col-12 col-md-3" style="background-color:orange">
+                            <div class="col-12 col-md-3">
                                 <button class="mailInbox--btn btn btn-primary btn-lg btn-block">Compose</button>
                             </div>
-                            <div class="col-12 col-md-9" style="background-color:mediumvioletred">
+                            <div class="col-12 col-md-9">
                                 <div class="mailInboxFolder--search input-group mb-3 float-right input-group-lg">
                                     <input type="text" class="form-control" placeholder="Search Mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <div class="input-group-append">
@@ -237,8 +237,6 @@ Last modified:
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-3" style="background-color:red">
-
-
                         <div class="mailInboxFolder">
                             <h4 class="mailInboxFolder--header">Folder</h4>
                             <ul class="list-group">
@@ -277,60 +275,33 @@ Last modified:
                     </div>
 
                     <div class="col-12 col-md-9" style="background-color:green">
-
-                    </div>
-
-
-
-                    <div class="col-12 col-md-9" style="background-color:yellow">
-
-
-
                         <div class="mailInboxFolder">
                             <h4 class="mailInboxFolder--header">Inbox</h4>
-                            <!-- <div class="input-group input-group-sm mb-3 float-right">
-                                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary" type="button">Button</button>
-                                </div>
-                            </div> -->
-
-
-
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <i class="fa fa-inbox" aria-hidden="true"></i> Inbox
-                                    <div class="float-right">
-                                        <a href="#">17</a>
-                                    </div>
+                            <ul class="MailInboxControls list-inline">
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-square-o"></i>
+                                        </button>
                                 </li>
-                                <li class="list-group-item">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i> Sent
-                                    <div class="float-right">
-                                        <a href="#">66</a>
-                                    </div>
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-trash-o"></i>
+                                            </button>
                                 </li>
-                                <li class="list-group-item">
-                                    <i class="fa fa-file-text" aria-hidden="true"></i> Drafts
-                                    <div class="float-right">
-                                        <a href="#">1</a>
-                                    </div>
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-reply"></i>
+                                                </button>
                                 </li>
-                                <li class="list-group-item">
-                                    <i class="fa fa-filter" aria-hidden="true"></i> Junk
-                                    <div class="float-right">
-                                        <a href="#">1,000</a>
-                                    </div>
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-share"></i>
+                                                    </button>
                                 </li>
-                                <li class="list-group-item">
-                                    <i class="fa fa-trash" aria-hidden="true"></i> Trash
-                                    <div class="float-right">
-                                        <a href="#">684</a>
-                                    </div>
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-refresh"></i>
+                                                        </button>
                                 </li>
                             </ul>
                         </div>
                     </div>
+
                 </div>
             </div>
             <!-- /inbox -->

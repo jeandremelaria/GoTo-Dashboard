@@ -457,7 +457,8 @@ Last modified:
   margin-bottom: 0.2rem;
   width: 34rem!important;
 }
-.mainContent .mailInbox .mailInboxFolder--header {
+.mainContent .mailInbox .mailInboxFolder--header,
+.mainContent .mailInbox .MailInboxControls {
   padding-left: 1.1rem;
 }
 #profile,
