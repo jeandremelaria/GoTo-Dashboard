@@ -301,7 +301,8 @@ Last modified:
 .mainContent .profileSummary,
 .mainContent .profileAboutMe,
 .mainContent .profileSettings,
-.mainContent .calendar {
+.mainContent .calendar,
+.mainContent .mailInboxFolder {
   margin-top: 1rem;
   padding-top: 1.5rem;
   background-color: white;
@@ -310,34 +311,39 @@ Last modified:
 .mainContent .profileSummary .profileSummary__infoItem,
 .mainContent .profileAboutMe .profileSummary__infoItem,
 .mainContent .profileSettings .profileSummary__infoItem,
-.mainContent .calendar .profileSummary__infoItem {
+.mainContent .calendar .profileSummary__infoItem,
+.mainContent .mailInboxFolder .profileSummary__infoItem {
   margin: 0.5rem;
   list-style: none;
 }
 .mainContent .profileSummary .profileSummary__infoItem .img-thumbnail,
 .mainContent .profileAboutMe .profileSummary__infoItem .img-thumbnail,
 .mainContent .profileSettings .profileSummary__infoItem .img-thumbnail,
-.mainContent .calendar .profileSummary__infoItem .img-thumbnail {
+.mainContent .calendar .profileSummary__infoItem .img-thumbnail,
+.mainContent .mailInboxFolder .profileSummary__infoItem .img-thumbnail {
   border-color: grey;
   border-width: 3px;
 }
 .mainContent .profileSummary .profileSummary__infoItem .profileSummary__infoItem--img,
 .mainContent .profileAboutMe .profileSummary__infoItem .profileSummary__infoItem--img,
 .mainContent .profileSettings .profileSummary__infoItem .profileSummary__infoItem--img,
-.mainContent .calendar .profileSummary__infoItem .profileSummary__infoItem--img {
+.mainContent .calendar .profileSummary__infoItem .profileSummary__infoItem--img,
+.mainContent .mailInboxFolder .profileSummary__infoItem .profileSummary__infoItem--img {
   width: 30%;
   margin-bottom: 1rem;
 }
 .mainContent .profileSummary .profileSummary__infoItem--txtColor,
 .mainContent .profileAboutMe .profileSummary__infoItem--txtColor,
 .mainContent .profileSettings .profileSummary__infoItem--txtColor,
-.mainContent .calendar .profileSummary__infoItem--txtColor {
+.mainContent .calendar .profileSummary__infoItem--txtColor,
+.mainContent .mailInboxFolder .profileSummary__infoItem--txtColor {
   color: grey;
 }
 .mainContent .profileSummary .list-group-item,
 .mainContent .profileAboutMe .list-group-item,
 .mainContent .profileSettings .list-group-item,
-.mainContent .calendar .list-group-item {
+.mainContent .calendar .list-group-item,
+.mainContent .mailInboxFolder .list-group-item {
   border-radius: 0;
   border-left: none;
   border-right: none;
@@ -447,6 +453,9 @@ Last modified:
   margin-bottom: 1rem;
   width: 98.8%;
 }
+.mainContent .mailInbox .mailInboxFolder--header {
+  padding-left: 1.1rem;
+}
 #profile,
 #calendar,
 #dashboard,
@@ -477,7 +486,12 @@ Last modified:
 .fa-graduation-cap,
 .fa-map-marker,
 .fa-pencil,
-.fa-sticky-note {
+.fa-sticky-note,
+.fa-inbox,
+.fa-envelope,
+.fa-file-text,
+.fa-filter,
+.fa-trash {
   color: #3A5EA6;
 }
 .fa-square {

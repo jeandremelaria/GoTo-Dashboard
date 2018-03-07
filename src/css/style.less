@@ -339,7 +339,7 @@ Last modified:
     margin-bottom: 4.3rem;
   }
   
-  .profileSummary, .profileAboutMe, .profileSettings, .calendar {
+  .profileSummary, .profileAboutMe, .profileSettings, .calendar, .mailInboxFolder {
     margin-top:@margin;
     padding-top:(@padding + 1rem);
     background-color: @white;
@@ -491,13 +491,15 @@ Last modified:
 }
 
 //Mailbox
-
 .mainContent {
   .mailInbox {
     .mailInbox--btn {
       margin-top: @margin;
       margin-bottom: @margin;
       width:98.8%;
+    }
+    .mailInboxFolder--header{
+      padding-left:(@padding + 0.6rem);
     }
   }
 }
@@ -526,7 +528,7 @@ Last modified:
 .fa-user {
   color:@red;
 }
-.fa-graduation-cap, .fa-map-marker, .fa-pencil, .fa-sticky-note {
+.fa-graduation-cap, .fa-map-marker, .fa-pencil, .fa-sticky-note, .fa-inbox, .fa-envelope, .fa-file-text, .fa-filter, .fa-trash {
   color:@blueDark;
 }
 .fa-square {
