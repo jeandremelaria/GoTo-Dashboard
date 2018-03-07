@@ -488,7 +488,9 @@ Last modified:
 .fa-users {
   color: #18CDCA;
 }
-.fa-exclamation-triangle {
+.fa-exclamation-triangle,
+.fa-star,
+.fa-star-o {
   color: orange;
 }
 .fa-shopping-cart,
@@ -522,6 +524,9 @@ Last modified:
 }
 .modal {
   margin: 0 auto;
+}
+table {
+  width: 40%;
 }
 * {
   box-sizing: border-box;
