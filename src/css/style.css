@@ -527,6 +527,7 @@ Last modified:
 }
 table {
   width: 40%;
+  margin-bottom: 3rem;
 }
 * {
   box-sizing: border-box;
