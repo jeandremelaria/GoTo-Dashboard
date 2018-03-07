@@ -442,12 +442,14 @@ Last modified:
 .mainContent .calendar__fullCalendar {
   margin-bottom: 1rem !important;
 }
-.mainContent .mailInbox {
-  margin-top: 3rem;
+.mainContent .mailInbox .mailInbox--btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 98.8%;
 }
 #profile,
 #calendar,
-#mailInbox,
+#dashboard,
 #mailRead,
 #mailCompose {
   display: none;
