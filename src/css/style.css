@@ -461,6 +461,16 @@ Last modified:
 .mainContent .mailInbox .MailInboxControls {
   padding-left: 1.1rem;
 }
+.mainContent .mailInbox .MailInboxControls {
+  margin-top: 1.5rem;
+}
+.mainContent .mailInbox .MailInboxPageNavigation--top {
+  margin-top: -3.3rem;
+  padding-right: 1.1rem;
+}
+.mainContent .mailInbox .MailInboxPageNavigation--bottom {
+  padding-right: 1.1rem;
+}
 #profile,
 #calendar,
 #dashboard,
