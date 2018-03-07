@@ -48,6 +48,10 @@ gulp.task('copyHtml', function() {
     gulp.src('src/*.html')
         .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest('build'));
+
+    gulp.src('src/includes/*.html')
+        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(gulp.dest('build/includes'));
 });
 
 //---- RUN MULTIPLE TASKS AT ONCE IN ARRAY ----//
@@ -57,5 +61,7 @@ gulp.task('default', ['message', 'img', 'prefixerAndCssNano', 'minifyJs', 'copyH
 gulp.task('watch', function() {
     gulp.watch('src/js/*.js', ['minifyJs']);
     gulp.watch('src/css/*.css', ['prefixerAndCssNano']);
+    gulp.watch('src/includes/*.html', ['copyHtml']);
     gulp.watch('src/*.html', ['copyHtml']);
+
 });

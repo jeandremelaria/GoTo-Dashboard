@@ -442,9 +442,12 @@ Last modified:
 .mainContent .calendar__fullCalendar {
   margin-bottom: 1rem !important;
 }
+.mainContent .mailInbox {
+  margin-top: 3rem;
+}
 #profile,
-#dashboard,
 #calendar,
+#mailInbox,
 #mailRead,
 #mailCompose {
   display: none;
