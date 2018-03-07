@@ -455,7 +455,7 @@ Last modified:
 .mainContent .mailInbox .mailInboxFolder--search {
   margin-top: 1rem;
   margin-bottom: 0.2rem;
-  width: 34rem!important;
+  width: 34rem;
 }
 .mainContent .mailInbox .mailInboxFolder--header,
 .mainContent .mailInbox .MailInboxControls {
@@ -604,6 +604,9 @@ body {
   .calendar__event--input {
     width: 9rem!important;
   }
+  .mailInboxFolder--search {
+    width: 44.7rem!important;
+  }
 }
 @media (min-width: 1200px) {
   .header__menuToggle--icon {
@@ -617,5 +620,8 @@ body {
   }
   .calendar__event--input {
     width: 12rem!important;
+  }
+  .mailInboxFolder--search {
+    width: 54.5rem!important;
   }
 }
