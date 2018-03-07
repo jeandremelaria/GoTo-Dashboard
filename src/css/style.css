@@ -625,3 +625,8 @@ body {
     width: 54.5rem!important;
   }
 }
+@media (width: 1366px) {
+  .mailInboxFolder--search {
+    width: 61.5rem!important;
+  }
+}
