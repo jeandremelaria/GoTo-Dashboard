@@ -451,7 +451,11 @@ Last modified:
 .mainContent .mailInbox .mailInbox--btn {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  width: 98.8%;
+}
+.mainContent .mailInbox .mailInboxFolder--search {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  width: 34rem!important;
 }
 .mainContent .mailInbox .mailInboxFolder--header {
   padding-left: 1.1rem;
@@ -491,7 +495,8 @@ Last modified:
 .fa-envelope,
 .fa-file-text,
 .fa-filter,
-.fa-trash {
+.fa-trash,
+.fa-search {
   color: #3A5EA6;
 }
 .fa-square {

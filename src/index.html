@@ -218,8 +218,26 @@ Last modified:
                 </div>
 
                 <div class="row">
-                    <div class="col-12 col-md-3">
-                        <button class="mailInbox--btn btn btn-primary btn-lg btn-block">Compose</button>
+                    <div class="col-12 col-md-12">
+                        <div class="row">
+                            <div class="col-12 col-md-3" style="background-color:orange">
+                                <button class="mailInbox--btn btn btn-primary btn-lg btn-block">Compose</button>
+                            </div>
+                            <div class="col-12 col-md-9" style="background-color:mediumvioletred">
+                                <div class="mailInboxFolder--search input-group mb-3 float-right input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Search Mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-3" style="background-color:red">
+
 
                         <div class="mailInboxFolder">
                             <h4 class="mailInboxFolder--header">Folder</h4>
@@ -256,11 +274,62 @@ Last modified:
                                 </li>
                             </ul>
                         </div>
+                    </div>
+
+                    <div class="col-12 col-md-9" style="background-color:green">
 
                     </div>
 
-                    <div class="col-12" style="background-color:green">
-                        Inbox
+
+
+                    <div class="col-12 col-md-9" style="background-color:yellow">
+
+
+
+                        <div class="mailInboxFolder">
+                            <h4 class="mailInboxFolder--header">Inbox</h4>
+                            <!-- <div class="input-group input-group-sm mb-3 float-right">
+                                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                                </div>
+                            </div> -->
+
+
+
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-inbox" aria-hidden="true"></i> Inbox
+                                    <div class="float-right">
+                                        <a href="#">17</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i> Sent
+                                    <div class="float-right">
+                                        <a href="#">66</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-file-text" aria-hidden="true"></i> Drafts
+                                    <div class="float-right">
+                                        <a href="#">1</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-filter" aria-hidden="true"></i> Junk
+                                    <div class="float-right">
+                                        <a href="#">1,000</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-trash" aria-hidden="true"></i> Trash
+                                    <div class="float-right">
+                                        <a href="#">684</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
