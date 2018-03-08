@@ -471,7 +471,6 @@ Last modified:
 .mainContent .mailInbox .MailInboxPageNavigation--bottom {
   padding-right: 1.1rem;
 }
-#mailInbox,
 #mailRead,
 #mailCompose {
   display: none;
