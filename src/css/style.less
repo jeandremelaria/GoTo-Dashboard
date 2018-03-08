@@ -210,7 +210,6 @@ Last modified:
   }
 }
 .mainContent {
-  display: block;
   position: relative;
   top:7rem;
   transition-duration: 1.5s;
@@ -318,7 +317,12 @@ Last modified:
   background-color:@white;
   height:(@height + 0.9rem);
   padding:1.2rem;
-  
+  position: absolute;
+  bottom: 0;
+  top: 100vh;
+  overflow:hidden;
+  width: 100%;
+ 
 }
 .dashboardBox__body {
   padding: @padding;
@@ -335,6 +339,7 @@ Last modified:
 
 // Profile
 .mainContent {
+ 
   .profile {
     margin-bottom: 4.3rem;
   }

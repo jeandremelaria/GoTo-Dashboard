@@ -164,7 +164,6 @@ Last modified:
   float: right;
 }
 .mainContent {
-  display: block;
   position: relative;
   top: 7rem;
   transition-duration: 1.5s;
@@ -282,6 +281,11 @@ Last modified:
   background-color: white;
   height: 4rem;
   padding: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  top: 100vh;
+  overflow: hidden;
+  width: 100%;
 }
 .dashboardBox__body {
   padding: 0.5rem;
