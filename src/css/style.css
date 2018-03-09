@@ -493,6 +493,9 @@ Last modified:
   text-align: left!important;
   margin: 1rem;
 }
+.mainContent .composeAttachmentBtn {
+  margin-left: 1rem;
+}
 .btn-group {
   margin-top: -2.3rem !important;
   margin-right: 1rem;
