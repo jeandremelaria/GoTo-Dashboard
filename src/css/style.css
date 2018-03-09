@@ -474,6 +474,9 @@ Last modified:
 .mainContent .mailInbox .MailInboxControls--margin {
   margin-top: -1.3rem !important;
 }
+.mainContent .mailInbox .MailInboxControls--margin2 {
+  margin-top: 1rem;
+}
 .mainContent .mailInbox .MailInboxPageNavigation--top {
   margin-top: -3.3rem;
   padding-right: 1.1rem;
