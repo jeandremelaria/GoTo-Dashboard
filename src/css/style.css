@@ -487,6 +487,12 @@ Last modified:
 .mainContent .mailComposeForm .mailComposeForm--input {
   margin-top: 1rem;
 }
+.mainContent .composeTextarea {
+  height: 300px;
+  width: 95%;
+  text-align: left!important;
+  margin: 1rem;
+}
 .btn-group {
   margin-top: -2.3rem !important;
   margin-right: 1rem;
