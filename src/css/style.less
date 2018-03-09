@@ -340,7 +340,7 @@ Last modified:
     margin-bottom: 4.3rem;
   }
   
-  .profileSummary, .profileAboutMe, .profileSettings, .calendar, .mailInboxFolder {
+  .profileSummary, .profileAboutMe, .profileSettings, .calendar, .mailInboxFolder, .mailCompose {
     margin-top:@margin;
     padding-top:(@padding + 1rem);
     background-color: @white;
@@ -503,7 +503,7 @@ Last modified:
       margin-bottom: (@margin - 0.8rem);
       width:34rem;
     }
-    .mailInboxFolder--header, .MailInboxControls{
+    .mailInboxFolder--header, .mailCompose--header, .MailInboxControls{
       padding-left:(@padding + 0.6rem);
     }
     .MailInboxControls {
@@ -517,8 +517,18 @@ Last modified:
       padding-right:(@padding + 0.6rem);
     }
   }
+
+.mailComposeForm {
+  margin:@margin;
+  .mailComposeForm--input {
+    margin-top:@margin;
+  }
 }
 
+}
+.textColor {
+  color:@white!important;
+}
 //Id's
  #mailRead, #mailCompose {
   display:none;

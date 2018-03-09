@@ -77,7 +77,7 @@ Last modified:
                                 <a href="#">Home</a>
                             </li>
                             <li class="breadcrumb-item" aria-current="page">Mailbox</li>
-                            <li class="breadcrumb-item active" aria-current="page">Inbox</li>
+                            <li class="breadcrumb-item active" aria-current="page">Compose</li>
                         </ol>
                     </div>
                 </div>
@@ -86,7 +86,8 @@ Last modified:
                     <div class="col-12 col-md-12">
                         <div class="row">
                             <div class="col-12 col-md-3">
-                                <button class="mailInbox--btn btn btn-primary btn-lg btn-block">Compose</button>
+                                <a href="mail-inbox.html"><button class="mailInbox--btn btn btn-primary btn-lg btn-block">Back to inbox</button></a>
+
                             </div>
                             <div class="col-12 col-md-9">
                                 <div class="mailInboxFolder--search input-group mb-3 float-right input-group-lg">
@@ -140,15 +141,34 @@ Last modified:
                     </div>
 
                     <div class="col-12 col-md-9">
-                        <!-- mail inbox folder -->
-                        <div class="mailInboxFolder">
-                            <h4 class="mailInboxFolder--header">Inbox</h4>
+                        <!-- compose mail -->
+                        <div class="mailCompose">
+                            <h4 class="mailCompose--header">Compose New Message </h4>
                             <hr>
-                            <!-- mail inbox controls -->
+                            <!-- form -->
+                            <div class="mailComposeForm form-group">
+                                <input class="mailComposeForm--input form-control" placeholder="To:">
+                                <input class="mailComposeForm--input form-control" placeholder="Subject:">
+                            </div>
+                            <!-- /form -->
+
+                            <!-- mail compose controls -->
                             <ul class="MailInboxControls list-inline">
                                 <li class="list-inline-item">
-                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-square-o"></i>
-                                        </button>
+                                    <li class="dropdown open">
+                                        <a class="btn btn-primary dropdown-toggle textColor" data-toggle="dropdown" aria-expanded="true">
+                                            <span class="current-font textColor">Normal text</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Normal text</a></li>
+                                            <li><a href="#">Heading 1</a></li>
+                                            <li><a href="#">Heading 2</a></li>
+                                            <li><a href="#">Heading 3</a></li>
+                                            <li><a href="#">Heading 4</a></li>
+                                            <li><a href="#">Heading 5</a></li>
+                                            <li><a href="#">Heading 6</a></li>
+                                        </ul>
+                                    </li>
                                 </li>
                                 <li class="list-inline-item">
                                     <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-trash-o"></i>
@@ -167,10 +187,10 @@ Last modified:
                                                         </button>
                                 </li>
                             </ul>
-                            <!-- /mail inbox controls -->
+                            <!-- /mail compose controls -->
 
                             <!-- page navigation top -->
-                            <nav aria-label="Page navigation" class="MailInboxPageNavigation--top float-right">
+                            <!-- <nav aria-label="Page navigation" class="MailInboxPageNavigation--top float-right">
                                 <ul class="pagination">
                                     <li class="page-item">
                                         <a class="page-link" href="#" aria-label="Previous">
@@ -188,7 +208,7 @@ Last modified:
                                         </a>
                                     </li>
                                 </ul>
-                            </nav>
+                            </nav> -->
                             <!-- /page navigation top -->
 
                             <!-- table -->
