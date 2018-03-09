@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--
+Developer name: Jeandre Melaria
+Project title: GoTo
+Platform: Bootstrap
+Programming language: HTML5, CSS3, Bootstrap, Font-awesome
+IDE tool: Visual Studio Code
+Database:  -
+Project type: Dashboard.
+File created date: 25.01.2018
+Last modified:
+-->
+<html lang="en">
+
+<head>
+    <!-- Meta Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="GoTo Dashboard">
+    <meta name="keywords" content="GoTo, Dashboard, Jeandre, Melaria, www.jeandremelaria.nl">
+    <meta name="author" content="Jeandre Melaria">
+    <meta name="copyright" content="Jeandre Melaria">
+    <meta name="robots" content="index, nofollow">
+    <!-- /Meta Tag -->
+
+    <title>GoTo | Dashboard</title>
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+
+    <!-- Style css -->
+    <link href="css/main.css" rel="stylesheet" title="style" type="text/css">
+
+    <!-- Chart js JavaScript -->
+    <script src="../node_modules/chart.js/dist/Chart.min.js"></script>
+
+    <!-- Full Calender -->
+    <link rel="stylesheet" href="../node_modules/fullcalendar/dist/fullcalendar.css">
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js "></script>
+    <script src="../node_modules/moment/min/moment.min.js"></script>
+    <script src="../node_modules/fullcalendar/dist/fullcalendar.js"></script>
+
+    <!-- W3.js -->
+    <script src="js/w3/w3.js"></script>
+</head>
+
+<body>
+    <main>
+        <!-- header -->
+        <header class="container-fluid" w3-include-html="includes/header.html"></header>
+        <!-- /header -->
+
+        <!-- sideMenu -->
+        <aside class="container-fluid" w3-include-html="includes/sideMenu.html"></aside>
+        <!-- /sideMenu -->
+
+        <!-- mainContent -->
+        <div id="mainContent" class="mainContent container-fluid">
+
+            <!-- inbox -->
+            <div id="mailInbox" class="mailInbox">
+                <div class="dashboard row">
+                    <div class="col-6 col-md-8">
+                        <h2 class="dashboard_header">Chat</h2>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <i class="sideMenu__links--icon fa fa-tachometer"></i>
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item" aria-current="page">Chat</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <a href="mail-inbox.html"><button class="mailInbox--btn btn btn-primary btn-lg btn-block">Back to inbox</button></a>
+
+                            </div>
+                            <div class="col-12 col-md-9">
+                                <div class="mailInboxFolder--search input-group mb-3 float-right input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Search Mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="mailInboxFolder">
+                            <h4 class="mailInboxFolder--header">Folder</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-inbox" aria-hidden="true"></i> Inbox
+                                    <div class="float-right">
+                                        <a href="#">17</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i> Sent
+                                    <div class="float-right">
+                                        <a href="#">66</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-file-text" aria-hidden="true"></i> Drafts
+                                    <div class="float-right">
+                                        <a href="#">1</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-filter" aria-hidden="true"></i> Junk
+                                    <div class="float-right">
+                                        <a href="#">1,000</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-trash" aria-hidden="true"></i> Trash
+                                    <div class="float-right">
+                                        <a href="#">684</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-9">
+                        <!-- compose mail -->
+                        <div class="mailCompose">
+                            <h4 class="mailCompose--header">Compose New Message </h4>
+                            <hr>
+                            <!-- form -->
+                            <div class="mailComposeForm form-group">
+                                <input class="mailComposeForm--input form-control" placeholder="To:">
+                                <input class="mailComposeForm--input form-control" placeholder="Subject:">
+                            </div>
+                            <!-- /form -->
+
+                            <!-- mail compose controls -->
+                            <ul class="MailInboxControls list-inline">
+                                <li class="list-inline-item">
+                                    <ul class="dropdown open">
+                                        <li class="list-inline-item">
+                                            <a class="btn btn-primary dropdown-toggle textColor" data-toggle="dropdown">
+                                                <span class="current-font textColor">Normal text</span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Normal text</a></li>
+                                                <li><a href="#">Heading 1</a></li>
+                                                <li><a href="#">Heading 2</a></li>
+                                                <li><a href="#">Heading 3</a></li>
+                                                <li><a href="#">Heading 4</a></li>
+                                                <li><a href="#">Heading 5</a></li>
+                                                <li><a href="#">Heading 6</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="btn-group float-right">
+                                        <a href="#" class="btn btn-primary">Bold</a>
+                                        <a href="#" class="btn btn-primary">Italic</a>
+                                        <a href="#" class="btn btn-primary">Underline</a>
+                                        <a href="#" class="btn btn-primary">Small</a>
+                                    </div>
+                                </li>
+                                <li class="clearfix"></li>
+                            </ul>
+
+                            <ul class="MailInboxControls MailInboxControls--margin list-inline">
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-list"></i>
+                                                </button>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-th-list"></i>
+                                                    </button>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-indent"></i>
+                                                        </button>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-share-square"></i>
+                                                            </button>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button type="button" class="btn btn-primary btn-sm checkbox-toggle"><i class="fa fa-picture-o"></i>
+                                                                </button>
+                                </li>
+                            </ul>
+                            <!-- /mail compose controls -->
+
+                            <!-- text area -->
+                            <textarea class="composeTextarea form-control">
+Dear Mr. Smith,
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, delectus maiores. 
+Adipisci repellendus dolores in fugiat. Asperiores minus adipisci molestias beatae necessitatibus tenetur nisi voluptates! Quos possimus rerum nesciunt tempore?
+
+Earum corporis minima sunt sapiente quam autem recusandae ipsam fuga, voluptatem a omnis maxime accusantium! Iure laborum velit numquam, minus animi placeat ea dicta quo, soluta debitis quae quibusdam quidem.
+                                                         
+Thank you,
+                                    
+John Doe
+                                  </textarea>
+
+                            <!-- /text area -->
+
+                            <!-- attachment -->
+                            <div class="composeAttachmentBtn">
+                                <button class="btn btn-default">Attachment</button>
+                                <p>Max. 32MB</p>
+                            </div>
+                            <!-- /attachment -->
+
+                            <ul class="MailInboxControls list-inline">
+                                <li class="list-inline-item">
+                                    <a class="btn btn-danger textColor"><i class="fa fa-trash-o"></i>
+                                        <span class="textColor">Discard</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="btn-group float-right">
+                                        <a href="#" class="btn btn-info">
+                                            <i class="fa fa-pencil textColor"></i>
+                                            <span class="textColor"> Draft</span>
+                                        </a>
+                                        <a href="#" class="btn btn-primary">
+                                            <i class="fa fa-envelope-o"></i>
+                                            <span class="textColor">Send</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="clearfix"></li>
+                            </ul>
+                        </div>
+                        <!-- /mail inbox folder -->
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- /inbox -->
+        </div>
+        <!-- /mainContent -->
+
+        <!-- Dashboard footer -->
+        <footer id="dashboardFooter " class="dashboardFooter mainContent " w3-include-html="includes/footer.html "></footer>
+        <!-- /Dashboard footer -->
+
+        <!-- /Dashboard -->
+    </main>
+
+    <script>
+        w3.includeHTML();
+    </script>
+    <script src="js/main.js "></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="../node_modules/jquery/dist/jquery.slim.min.js "></script> -->
+    <script src="../node_modules/popper.js/dist/popper.min.js "></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>
