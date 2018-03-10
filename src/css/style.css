@@ -442,6 +442,9 @@ Last modified:
 .mainContent .calendar__externalEvents .calendar__externalEvents--style .calendar__externalEvents--btnClose {
   margin-top: -2.1rem;
 }
+.mainContent .calendar__externalEvents .calendar__externalEventsBgColor--lime {
+  background-color: #01ff70;
+}
 .mainContent .calendar__externalEvents .calendar__externalEventsBgColor--yellow {
   background-color: #f39c12;
 }
