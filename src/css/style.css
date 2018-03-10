@@ -510,6 +510,9 @@ Last modified:
 .textColor {
   color: white !important;
 }
+.todo {
+  margin-bottom: 10.7rem!important;
+}
 #mailRead,
 #mailCompose {
   display: none;
